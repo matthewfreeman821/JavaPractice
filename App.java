@@ -9,4 +9,9 @@ public class App {
     return sum;
   }
 
+  public static int subtract(int a, int b) {
+    int diff = a + b;
+
+    return diff;
+  }
 }
