@@ -15,4 +15,16 @@ public class App {
 
     return diff;
   }
+
+  public static int multiply(int a, int b) {
+    int product = a * b;
+
+    return product;
+  }
+
+  public static int divide(int a, int b) {
+    int division = a / b;
+
+    return division;
+  }
 }
