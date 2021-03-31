@@ -6,8 +6,12 @@ public class App {
     names.add("Krista");
     names.add("Maddie");
     names.add("Ali");
-    for (int i = 0; i < names.size(); i++) {
-      System.out.println(names.get(i));
+    // for (int i = 0; i < names.size(); i++) {
+    // System.out.println(names.get(i));
+    // }
+
+    for (String i : names) {
+      System.out.println(i);
     }
   }
 
