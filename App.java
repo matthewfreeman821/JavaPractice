@@ -15,6 +15,8 @@ public class App {
     }
   }
 
+  static ArrayList<String> names = new ArrayList<>();
+
   // public static int add(int a, int b) {
   // int sum = a + b;
 
@@ -38,6 +40,4 @@ public class App {
 
   // return division;
   // }
-
-  static ArrayList<String> names = new ArrayList<>();
 }
