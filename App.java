@@ -2,7 +2,13 @@ import java.util.ArrayList;
 
 public class App {
   public static void main(String[] args) {
-
+    names.add("Matthew");
+    names.add("Krista");
+    names.add("Maddie");
+    names.add("Ali");
+    for (int i = 0; i < names.size(); i++) {
+      System.out.println(names.get(i));
+    }
   }
 
   // public static int add(int a, int b) {
