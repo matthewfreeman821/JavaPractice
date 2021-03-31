@@ -1,32 +1,33 @@
+import java.util.ArrayList;
+
 public class App {
   public static void main(String[] args) {
-    System.out.println(add(3, 4));
-    System.out.println(subtract(3, 4));
-    System.out.println(multiply(3, 4));
-    System.out.println(divide(12, 4));
+
   }
 
-  public static int add(int a, int b) {
-    int sum = a + b;
+  // public static int add(int a, int b) {
+  // int sum = a + b;
 
-    return sum;
-  }
+  // return sum;
+  // }
 
-  public static int subtract(int a, int b) {
-    int diff = a - b;
+  // public static int subtract(int a, int b) {
+  // int diff = a - b;
 
-    return diff;
-  }
+  // return diff;
+  // }
 
-  public static int multiply(int a, int b) {
-    int product = a * b;
+  // public static int multiply(int a, int b) {
+  // int product = a * b;
 
-    return product;
-  }
+  // return product;
+  // }
 
-  public static int divide(int a, int b) {
-    int division = a / b;
+  // public static int divide(int a, int b) {
+  // int division = a / b;
 
-    return division;
-  }
+  // return division;
+  // }
+
+  static ArrayList<String> names = new ArrayList<>();
 }
