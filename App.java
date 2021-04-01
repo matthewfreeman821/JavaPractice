@@ -10,9 +10,10 @@ public class App {
     // System.out.println(names.get(i));
     // }
 
-    for (String i : names) {
-      System.out.println(i);
-    }
+    // for (String i : names) {
+    // System.out.println(i);
+
+    names.forEach(name -> System.out.println(name + " forEach loop"));
   }
 
   static ArrayList<String> names = new ArrayList<>();
