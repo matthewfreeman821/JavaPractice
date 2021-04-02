@@ -13,7 +13,15 @@ public class App {
     // for (String i : names) {
     // System.out.println(i);
 
-    names.forEach(name -> System.out.println(name + " forEach loop"));
+    // names.forEach(name -> System.out.println(name + " forEach loop"));
+
+    for (String i : names) {
+      if (i.equals("Maddie")) {
+        System.out.println("Name is " + i);
+      } else {
+        System.out.println("Name is not Maddie");
+      }
+    }
   }
 
   static ArrayList<String> names = new ArrayList<>();
