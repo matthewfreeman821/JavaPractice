@@ -26,27 +26,12 @@ public class App {
 
   static ArrayList<String> names = new ArrayList<>();
 
-  // public static int add(int a, int b) {
-  // int sum = a + b;
+  public class Person {
+    String name;
 
-  // return sum;
-  // }
+    public Person(String name) {
+      this.name = name;
+    }
+  }
 
-  // public static int subtract(int a, int b) {
-  // int diff = a - b;
-
-  // return diff;
-  // }
-
-  // public static int multiply(int a, int b) {
-  // int product = a * b;
-
-  // return product;
-  // }
-
-  // public static int divide(int a, int b) {
-  // int division = a / b;
-
-  // return division;
-  // }
 }
