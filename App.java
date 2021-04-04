@@ -5,7 +5,7 @@ import javax.print.attribute.standard.PrinterName;
 public class App {
   public static void main(String[] args) {
     Person matthew = new Person("Matthew");
-    matthew.printName(matthew.name);
+    Person.printName(matthew.name);
   }
 
   static ArrayList<String> names = new ArrayList<>();
