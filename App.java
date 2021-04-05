@@ -6,6 +6,7 @@ public class App {
   public static void main(String[] args) {
     Person matthew = new Person("Matthew", 34);
     Person.printName(matthew.name);
+    Person.printAge(matthew.age);
   }
 
   static ArrayList<String> names = new ArrayList<>();
@@ -21,6 +22,10 @@ public class App {
 
     public static void printName(String str) {
       System.out.println(str);
+    }
+
+    public static void printAge(int age) {
+      System.out.println("This person's age is " + age + ".");
     }
   }
 
