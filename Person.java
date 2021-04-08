@@ -1,10 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Person {
   String name;
   int age;
+  List<String> bag = new ArrayList();
 
-  public Person(String name, int age) {
+  public Person(String name, int age, List bag) {
     this.name = name;
     this.age = age;
+    this.bag = bag;
   }
 
   public void printName(String str) {
