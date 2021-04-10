@@ -16,8 +16,8 @@ public class App {
 
     for (int i = 0; i < items.size(); i++) {
       System.out.println(matthew.bag.add(items.get(i)));
-      matthew.bag.forEach(str -> System.out.println(str));
       System.out.println(matthew.name + "'s bag has " + matthew.bag.size() + " items in it.");
     }
+    matthew.bag.forEach(str -> System.out.println(str));
   }
 }
