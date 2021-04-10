@@ -13,6 +13,7 @@ public class App {
     items.add("shovel");
 
     Person matthew = new Person("Matthew", 34, bag);
+    matthew.bag.forEach(str -> System.out.println(str));
 
     for (int i = 0; i < items.size(); i++) {
       System.out.println(matthew.bag.add(items.get(i)));
