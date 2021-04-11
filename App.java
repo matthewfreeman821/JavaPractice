@@ -12,7 +12,9 @@ public class App {
     items.add("matches");
     items.add("shovel");
 
-    Person matthew = new Person("Matthew", 34, bag);
+    Person matthew = new Person("Matthew", 34, bag, "7 June 1990");
+
+    matthew.printDob(matthew.dob);
 
     for (int i = 0; i < items.size(); i++) {
       System.out.println(matthew.bag.add(items.get(i)));
