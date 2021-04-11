@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import jdk.tools.jlink.internal.plugins.StripNativeCommandsPlugin;
-
 public class Person {
   String name;
   int age;
