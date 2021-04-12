@@ -15,12 +15,12 @@ public class App {
     Person matthew = new Person("Matthew", 34, bag, "7 June 1990");
 
     matthew.printDob(matthew.dob);
-    matthew.printBagItems(bag);
 
     for (int i = 0; i < items.size(); i++) {
       System.out.println(matthew.bag.add(items.get(i)));
       System.out.println(matthew.name + "'s bag has " + matthew.bag.size() + " items in it.");
     }
     matthew.bag.forEach(str -> System.out.println(str));
+    matthew.printBagItems(bag);
   }
 }
