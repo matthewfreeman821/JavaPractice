@@ -25,4 +25,9 @@ public class Person {
   public void printDob(String dob) {
     System.out.println("This person's date of birth is " + dob + ".");
   }
+
+  public void printBagItems(List bag) {
+    System.out.println("The items in the bag are: ");
+    bag.forEach(str -> System.out.println(str));
+  }
 }
