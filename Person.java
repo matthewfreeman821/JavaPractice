@@ -30,4 +30,8 @@ public class Person {
     System.out.println("The items in the bag are: ");
     bag.forEach(str -> System.out.println(str));
   }
+
+  public void removeLastItem(List bag) {
+    bag.remove((bag.size() - 1));
+  }
 }
