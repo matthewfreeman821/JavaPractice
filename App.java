@@ -21,6 +21,7 @@ public class App {
       System.out.println(matthew.name + "'s bag has " + matthew.bag.size() + " items in it.");
     }
     matthew.bag.forEach(str -> System.out.println(str));
+    matthew.removeLastItem(bag);
     matthew.printBagItems(bag);
   }
 }
