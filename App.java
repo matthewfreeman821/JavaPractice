@@ -15,9 +15,9 @@ public class App {
     Person matthew = new Person("Matthew", 34, bag, "7 June 1990");
 
     matthew.printDob(matthew.dob);
-    matthew.printAge(age);
+    matthew.printAge(matthew.age);
     matthew.updateAge(30);
-    matthew.printAge(age);
+    matthew.printAge(matthew.age);
 
     // for (int i = 0; i < items.size(); i++) {
     // System.out.println(matthew.bag.add(items.get(i)));
