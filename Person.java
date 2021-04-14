@@ -19,7 +19,7 @@ public class Person {
   }
 
   public void printAge(int age) {
-    System.out.println("This person's age is " + age + ".");
+    System.out.println("This person's age is " + this.age + ".");
   }
 
   public void updateAge(int newAge) {
