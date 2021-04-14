@@ -22,6 +22,10 @@ public class Person {
     System.out.println("This person's age is " + age + ".");
   }
 
+  public void updateAge(int newAge) {
+    this.age = newAge;
+  }
+
   public void printDob(String dob) {
     System.out.println("This person's date of birth is " + dob + ".");
   }
