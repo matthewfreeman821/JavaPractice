@@ -4,20 +4,17 @@ import java.util.List;
 public class App {
   public static void main(String[] args) {
     List<String> bag = new ArrayList<>();
-    List<String> items = new ArrayList<>();
-
-    items.add("water");
-    items.add("food");
-    items.add("knife");
-    items.add("matches");
-    items.add("shovel");
-
     Person matthew = new Person("Matthew", 34, bag, "7 June 1990");
 
-    matthew.printDob(matthew.dob);
-    matthew.printAge(matthew.age);
-    matthew.updateAge(30);
-    matthew.printAge(matthew.age);
+    matthew.addItemsToBag("water", matthew.bag);
+    matthew.addItemsToBag("shovel", matthew.bag);
+    matthew.addItemsToBag("knife", matthew.bag);
+    matthew.addItemsToBag("string", matthew.bag);
+
+    // matthew.printDob(matthew.dob);
+    // matthew.printAge(matthew.age);
+    // matthew.updateAge(30);
+    // matthew.printAge(matthew.age);
 
     // for (int i = 0; i < items.size(); i++) {
     // System.out.println(matthew.bag.add(items.get(i)));
@@ -26,6 +23,6 @@ public class App {
     // }
     // matthew.bag.forEach(str -> System.out.println(str));
     // matthew.removeLastItem(bag);
-    // matthew.printBagItems(bag);
+    matthew.printBagItems(bag);
   }
 }
