@@ -35,6 +35,10 @@ public class Person {
     bag.forEach(str -> System.out.println(str));
   }
 
+  public void addItemsToBag(String item, List<> bag) {
+    bag.add(item);
+  }
+
   public void removeLastItem(List bag) {
     bag.remove((bag.size() - 1));
   }
