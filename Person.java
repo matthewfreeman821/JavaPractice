@@ -18,12 +18,18 @@ public class Person {
     System.out.println(str);
   }
 
+  public void updateName(String newName) {
+    this.name = newName;
+    System.out.println("You have changed your name.");
+  }
+
   public void printAge(int age) {
     System.out.println("This person's age is " + this.age + ".");
   }
 
   public void updateAge(int newAge) {
     this.age = newAge;
+    System.out.println("You have updated your age.");
   }
 
   public void printDob(String dob) {
