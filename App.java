@@ -12,5 +12,8 @@ public class App {
     matthew.addItemsToBag("string", matthew.bag);
 
     matthew.printBagItems(bag);
+    matthew.printName(matthew.name);
+    matthew.updateName("Gordon");
+    matthew.printName(matthew.name);
   }
 }
