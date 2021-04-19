@@ -15,5 +15,11 @@ public class App {
     matthew.printName(matthew.name);
     matthew.updateName("Gordon");
     matthew.printName(matthew.name);
+
+    if (matthew.bag.size() > 1) {
+      System.out.println(matthew.name + "'s bag has " + matthew.bag.size() + " items in it.");
+    } else {
+      System.out.println(matthew.name + "'s bag has " + matthew.bag.size() + " item in it.");
+    }
   }
 }
