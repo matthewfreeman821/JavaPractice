@@ -18,8 +18,10 @@ public class App {
 
     if (matthew.bag.size() > 1) {
       System.out.println(matthew.name + "'s bag has " + matthew.bag.size() + " items in it.");
-    } else {
+    } else if (matthew.bag.size() = 1) {
       System.out.println(matthew.name + "'s bag has " + matthew.bag.size() + " item in it.");
+    } else {
+      System.out.println(matthew.name + "'s bag has no items in it.'");
     }
   }
 }
