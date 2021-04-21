@@ -18,6 +18,8 @@ public class App {
 
     if (matthew.bag.size() > 1) {
       System.out.println(matthew.name + "'s bag has " + matthew.bag.size() + " items in it.");
+      System.out.println("The items are: ");
+      matthew.bag.forEach(str -> System.out.println(str + " is in " + matthew.name + "'s bag'"));
     } else if (matthew.bag.size() == 1) {
       System.out.println(matthew.name + "'s bag has " + matthew.bag.size() + " item in it.");
     } else {
