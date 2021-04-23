@@ -27,6 +27,8 @@ public class App {
       System.out.println(matthew.name + "'s bag has no items in it.'");
     }
 
-    matthew.printAge(age);
+    matthew.printAge(matthew.age);
+    matthew.updateAge(35);
+    matthew.printAge(matthew.age);
   }
 }
