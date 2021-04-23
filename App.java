@@ -26,5 +26,7 @@ public class App {
     } else {
       System.out.println(matthew.name + "'s bag has no items in it.'");
     }
+
+    matthew.printAge(age);
   }
 }
