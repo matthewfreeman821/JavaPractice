@@ -30,5 +30,9 @@ public class App {
     matthew.printAge(matthew.age);
     matthew.updateAge(35);
     matthew.printAge(matthew.age);
+    System.out.println(matthew.bag.size());
+    matthew.removeLastItem(bag);
+    System.out.println(matthew.bag.size());
+
   }
 }
