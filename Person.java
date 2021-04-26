@@ -2,13 +2,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Person {
-  String name;
+  String fName;
+  String lName;
   int age;
   List<String> bag = new ArrayList();
   String dob;
 
-  public Person(String name, int age, List bag, String dob) {
-    this.name = name;
+  public Person(String fName, String lName, int age, List bag, String dob) {
+    this.fName = fName;
+    this.lName = lName;
     this.age = age;
     this.bag = bag;
     this.dob = dob;
