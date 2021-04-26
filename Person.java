@@ -21,8 +21,8 @@ public class Person {
   }
 
   public void updateName(String newName) {
-    this.name = newName;
-    System.out.println("You have changed your name.");
+    this.fname = newName;
+    System.out.println("You have changed your first name.");
   }
 
   public void printAge(int age) {
