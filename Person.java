@@ -21,7 +21,7 @@ public class Person {
   }
 
   public void updateName(String newName) {
-    this.fname = newName;
+    this.fName = newName;
     System.out.println("You have changed your first name.");
   }
 

@@ -23,9 +23,9 @@ public class App {
       matthew.bag.forEach(str -> System.out.println(matthew.fName + "'s bag has " + str + " in it."));
     } else if (matthew.bag.size() == 1) {
       System.out.println(matthew.fName + "'s bag has " + matthew.bag.size() + " item in it.");
-      matthew.bag.forEach(str -> System.out.println(matthew.name + "'s bag has " + str + " in it."));
+      matthew.bag.forEach(str -> System.out.println(matthew.fName + "'s bag has " + str + " in it."));
     } else {
-      System.out.println(matthew.fNname + "'s bag has no items in it.'");
+      System.out.println(matthew.fName + "'s bag has no items in it.'");
     }
 
     matthew.printAge(matthew.age);
