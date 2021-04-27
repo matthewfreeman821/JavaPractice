@@ -13,9 +13,6 @@ public class App {
     matthew.addItemsToBag("knife", matthew.bag);
     matthew.addItemsToBag("string", matthew.bag);
 
-    // matthew.printBagItems(bag);
-    // matthew.printName(matthew.name);
-    // matthew.updateName("Gordon");
 
     if (matthew.bag.size() > 1) {
       System.out.println(matthew.fName + "'s bag has " + matthew.bag.size() + " items in it.");
@@ -27,13 +24,5 @@ public class App {
     } else {
       System.out.println(matthew.fName + "'s bag has no items in it.'");
     }
-
-    matthew.printAge(matthew.age);
-    matthew.updateAge(35);
-    matthew.printAge(matthew.age);
-    System.out.println(matthew.bag.size());
-    matthew.removeLastItem(bag);
-    System.out.println(matthew.bag.size());
-
   }
 }
