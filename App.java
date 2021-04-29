@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class App {
+  List<String> itemsForBag = new ArrayList<>();
 
   public static void printFullName(String fName, String lName) {
     System.out.println(fName + " " + lName);
