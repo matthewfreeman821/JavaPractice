@@ -18,6 +18,7 @@ public class App {
     matthew.addItemsToBag("shovel", matthew.bag);
     matthew.addItemsToBag("knife", matthew.bag);
     matthew.addItemsToBag("string", matthew.bag);
+    matthew.addItemsToBag("bottle", matthew.bag);
 
     // if (matthew.bag.size() > 1) {
     // System.out.println(matthew.fName + "'s bag has " + matthew.bag.size() + "
