@@ -21,6 +21,7 @@ public class App {
     matthew.addItemsToBag("bottle", matthew.bag);
     matthew.printBagItems(bag);
     matthew.removeLastItem(bag);
+    matthew.printBagItems(bag);
 
     // if (matthew.bag.size() > 1) {
     // System.out.println(matthew.fName + "'s bag has " + matthew.bag.size() + "
