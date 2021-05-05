@@ -25,7 +25,7 @@ public class Person {
     System.out.println("You have changed your first name.");
   }
 
-  public static void printFullName(String fName, String lName) {
+  public void printFullName(String fName, String lName) {
     System.out.println(fName + " " + lName);
   }
 

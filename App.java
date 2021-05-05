@@ -7,7 +7,7 @@ public class App {
     Person matthew = new Person("Matthew", "Freeman", 34, bag, "7 June 1990");
     System.out.println(matthew.fName);
     System.out.println(matthew.lName);
-    printFullName(matthew.fName, matthew.lName);
+    matthew.printFullName(matthew.fName, matthew.lName);
 
     matthew.addItemsToBag("water", matthew.bag);
     matthew.addItemsToBag("shovel", matthew.bag);
