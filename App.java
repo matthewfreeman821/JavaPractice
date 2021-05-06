@@ -17,6 +17,7 @@ public class App {
     matthew.printBagItems(bag);
     matthew.removeLastItem(bag);
     matthew.printBagItems(bag);
+    System.out.println("You have " + matthew.bag.size() + " items in your bag.");
 
   }
 }
