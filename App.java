@@ -15,6 +15,7 @@ public class App {
     matthew.addItemsToBag("string", matthew.bag);
     matthew.addItemsToBag("bottle", matthew.bag);
     matthew.printBagItems(bag);
+    System.out.println("You have " + matthew.bag.size() + " items in your bag.");
     matthew.removeLastItem(bag);
     matthew.printBagItems(bag);
     System.out.println("You have " + matthew.bag.size() + " items in your bag.");
