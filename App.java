@@ -8,6 +8,7 @@ public class App {
     System.out.println(matthew.fName);
     System.out.println(matthew.lName);
     matthew.printFullName(matthew.fName, matthew.lName);
+    matthew.printDob(dob);
 
     matthew.addItemsToBag("water", matthew.bag);
     matthew.addItemsToBag("shovel", matthew.bag);
