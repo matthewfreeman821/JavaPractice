@@ -9,6 +9,8 @@ public class App {
     System.out.println(matthew.lName);
     matthew.printFullName(matthew.fName, matthew.lName);
     matthew.printAge(age);
+    matthew.updateAge(33);
+    matthew.printAge(age);
     matthew.printDob(dob);
 
     matthew.addItemsToBag("water", matthew.bag);
