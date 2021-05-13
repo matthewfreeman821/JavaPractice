@@ -18,6 +18,7 @@ public class App {
     matthew.addItemsToBag("tent", bag);
 
     // Print bags to see if items saved correctly
+    // Not saved correctly, need to update bag call
     maddie.printBagItems(bag);
     matthew.printBagItems(bag);
   }
