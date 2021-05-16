@@ -9,9 +9,8 @@ public class App {
     Person matthew = new Person("Matthew", "Freeman", 34, matthewBag, "7 June 1990");
     Person maddie = new Person("Maddie", "Freeman", 8, maddieBag, "20 March 2013");
     Person ali = new Person("Ali", "Freeman", 4, aliBag, "4 Dec 2016");
-    System.out.println(maddie.fName);
-    System.out.println(matthew.fName);
-    System.out.println(matthew.lName);
+    maddie.printFullName(maddie.fName, maddie.lName);
+    ali.printFullName(ali.fName, ali.lName);
     matthew.printFullName(matthew.fName, matthew.lName);
 
     // Add item to maddie's bag
