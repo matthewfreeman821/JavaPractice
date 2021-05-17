@@ -19,9 +19,13 @@ public class App {
     // Add item to matthew's bag
     matthew.addItemsToBag("tent", matthewBag);
 
+    // Add item to ali's bag
+    ali.addItemsToBag("chips", aliBag);
+
     // Print bags to see if items saved correctly
     // Not saved correctly, need to update bag call
     maddie.printBagItems(maddieBag);
     matthew.printBagItems(matthewBag);
+    ali.printBagItems(aliBag);
   }
 }
