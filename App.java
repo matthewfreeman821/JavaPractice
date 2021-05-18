@@ -10,6 +10,7 @@ public class App {
     Person maddie = new Person("Maddie", "Freeman", 8, maddieBag, "20 March 2013");
     Person ali = new Person("Ali", "Freeman", 4, aliBag, "4 Dec 2016");
     maddie.printFullName(maddie.fName, maddie.lName);
+    maddie.printAge(maddie.age);
     ali.printFullName(ali.fName, ali.lName);
     matthew.printFullName(matthew.fName, matthew.lName);
     matthew.printAge(matthew.age);
