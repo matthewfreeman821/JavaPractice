@@ -12,6 +12,7 @@ public class App {
     maddie.printFullName(maddie.fName, maddie.lName);
     ali.printFullName(ali.fName, ali.lName);
     matthew.printFullName(matthew.fName, matthew.lName);
+    matthew.printAge(matthew.age);
 
     // Add item to maddie's bag
     maddie.addItemsToBag("water", maddieBag);
