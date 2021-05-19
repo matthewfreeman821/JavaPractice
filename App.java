@@ -17,6 +17,7 @@ public class App {
     ali.printDob(ali.dob);
     matthew.printFullName(matthew.fName, matthew.lName);
     matthew.printAge(matthew.age);
+    matthew.printDob(matthew.dob);
 
     // Add item to maddie's bag
     maddie.addItemsToBag("water", maddieBag);
