@@ -14,6 +14,7 @@ public class App {
     maddie.printDob(maddie.dob);
     ali.printFullName(ali.fName, ali.lName);
     ali.printAge(ali.age);
+    ali.printDob(ali.dob);
     matthew.printFullName(matthew.fName, matthew.lName);
     matthew.printAge(matthew.age);
 
