@@ -20,8 +20,8 @@ public class Person {
     System.out.println(str);
   }
 
-  public void updateName(String newName) {
-    this.fName = newName;
+  public void updateFName(String newFName) {
+    this.fName = newFName;
     System.out.println("You have changed your first name.");
   }
 
