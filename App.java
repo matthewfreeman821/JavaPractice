@@ -29,7 +29,6 @@ public class App {
     ali.addItemsToBag("chips", aliBag);
 
     // Print bags to see if items saved correctly
-    // Not saved correctly, need to update bag call
     maddie.printBagItems(maddieBag);
     matthew.printBagItems(matthewBag);
     ali.printBagItems(aliBag);
