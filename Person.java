@@ -16,10 +16,6 @@ public class Person {
     this.dob = dob;
   }
 
-  public void printName(String str) {
-    System.out.println(str);
-  }
-
   public void updateFName(String newFName) {
     this.fName = newFName;
     System.out.println("You have changed your first name.");
