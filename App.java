@@ -18,6 +18,7 @@ public class App {
     ali.printAge(ali.age);
     ali.printDob(ali.dob);
     matthew.printFullName(matthew.fName, matthew.lName);
+    matthew.updateFName("Gordon");
     matthew.printAge(matthew.age);
     matthew.printDob(matthew.dob);
 
