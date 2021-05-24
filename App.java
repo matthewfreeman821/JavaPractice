@@ -31,6 +31,7 @@ public class App {
 
     // Add item to matthew's bag
     matthew.addItemsToBag("tent", matthewBag);
+    matthew.addItemsToBag("small grill", matthewBag);
 
     // Add item to ali's bag
     ali.addItemsToBag("chips", aliBag);
