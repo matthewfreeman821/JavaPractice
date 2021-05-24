@@ -35,6 +35,7 @@ public class App {
 
     // Add item to ali's bag
     ali.addItemsToBag("chips", aliBag);
+    ali.addItemsToBag("hotdogs", aliBag);
 
     // Print bags to see if items saved correctly
     maddie.printBagItems(maddieBag);
