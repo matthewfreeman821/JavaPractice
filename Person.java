@@ -57,4 +57,8 @@ public class Person {
   public void removeLastItem(List bag) {
     bag.remove((bag.size() - 1));
   }
+
+  public void updateNickname(String newNickname) {
+    this.nickname = newNickname;
+  }
 }
