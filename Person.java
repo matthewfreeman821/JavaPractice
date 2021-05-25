@@ -7,13 +7,15 @@ public class Person {
   int age;
   List<String> bag = new ArrayList();
   String dob;
+  String nickname;
 
-  public Person(String fName, String lName, int age, List bag, String dob) {
+  public Person(String fName, String lName, int age, List bag, String dob, String nickname) {
     this.fName = fName;
     this.lName = lName;
     this.age = age;
     this.bag = bag;
     this.dob = dob;
+    this.nickname = nickname;
   }
 
   public void updateFName(String newFName) {
