@@ -14,32 +14,27 @@ public class App {
     maddie.printFullName(maddie.fName, maddie.lName);
     maddie.printAge(maddie.age);
     maddie.printDob(maddie.dob);
+    maddie.addItemsToBag("water", maddieBag);
+    maddie.addItemsToBag("potatoes", maddieBag);
+
     ali.printFullName(ali.fName, ali.lName);
     ali.printFullName(ali.fName, ali.lName);
     ali.updateFName("Alisa");
     ali.printAge(ali.age);
     ali.printDob(ali.dob);
+    ali.addItemsToBag("chips", aliBag);
+    ali.addItemsToBag("hotdogs", aliBag);
+
     matthew.printFullName(matthew.fName, matthew.lName);
     matthew.updateFName("Gordon");
     matthew.printFullName(matthew.fName, matthew.lName);
     matthew.printAge(matthew.age);
     matthew.printDob(matthew.dob);
-
-    // Add item to maddie's bag
-    maddie.addItemsToBag("water", maddieBag);
-    maddie.addItemsToBag("potatoes", maddieBag);
-
-    // Add item to matthew's bag
     matthew.addItemsToBag("tent", matthewBag);
     matthew.addItemsToBag("small grill", matthewBag);
 
-    // Add item to ali's bag
-    ali.addItemsToBag("chips", aliBag);
-    ali.addItemsToBag("hotdogs", aliBag);
-
-    // Print bags to see if items saved correctly
     maddie.printBagItems(maddieBag);
-    matthew.printBagItems(matthewBag);
     ali.printBagItems(aliBag);
+    matthew.printBagItems(matthewBag);
   }
 }
