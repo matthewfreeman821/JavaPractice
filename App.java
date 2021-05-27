@@ -19,8 +19,9 @@ public class App {
     maddie.addItemsToBag("potatoes", maddieBag);
 
     ali.printFullName(ali.fName, ali.lName);
-    ali.printFullName(ali.fName, ali.lName);
     ali.updateFName("Alisa");
+    ali.printFullName(ali.fName, ali.lName);
+    ali.printNickname(ali.nickname);
     ali.printAge(ali.age);
     ali.printDob(ali.dob);
     ali.addItemsToBag("chips", aliBag);
