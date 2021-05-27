@@ -30,6 +30,7 @@ public class App {
     matthew.printFullName(matthew.fName, matthew.lName);
     matthew.updateFName("Gordon");
     matthew.printFullName(matthew.fName, matthew.lName);
+    matthew.printNickname(matthew.nickname);
     matthew.printAge(matthew.age);
     matthew.printDob(matthew.dob);
     matthew.addItemsToBag("tent", matthewBag);
