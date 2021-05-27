@@ -61,4 +61,8 @@ public class Person {
   public void updateNickname(String newNickname) {
     this.nickname = newNickname;
   }
+
+  public void printNickname(String nickname) {
+    System.out.println(nickname);
+  }
 }
