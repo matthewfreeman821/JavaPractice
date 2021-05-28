@@ -17,6 +17,7 @@ public class App {
     maddie.printDob(maddie.dob);
     maddie.addItemsToBag("water", maddieBag);
     maddie.addItemsToBag("potatoes", maddieBag);
+    maddie.printBagItems(maddieBag);
 
     ali.printFullName(ali.fName, ali.lName);
     ali.updateFName("Alisa");
@@ -26,6 +27,7 @@ public class App {
     ali.printDob(ali.dob);
     ali.addItemsToBag("chips", aliBag);
     ali.addItemsToBag("hotdogs", aliBag);
+    ali.printBagItems(aliBag);
 
     matthew.printFullName(matthew.fName, matthew.lName);
     matthew.updateFName("Gordon");
@@ -35,9 +37,6 @@ public class App {
     matthew.printDob(matthew.dob);
     matthew.addItemsToBag("tent", matthewBag);
     matthew.addItemsToBag("small grill", matthewBag);
-
-    maddie.printBagItems(maddieBag);
-    ali.printBagItems(aliBag);
     matthew.printBagItems(matthewBag);
   }
 }
