@@ -18,6 +18,14 @@ public class Person {
     this.nickname = nickname;
   }
 
+  public Person(String fName, String lName, int age, List bag, String dob) {
+    this.fName = fname;
+    this.lName = lName;
+    this.age = age;
+    this.bag = bag;
+    this.dob = dob;
+  }
+
   public void updateFName(String newFName) {
     this.fName = newFName;
     System.out.println("You have changed your first name.");
