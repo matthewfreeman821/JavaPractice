@@ -26,6 +26,8 @@ public class Person {
     this.dob = dob;
   }
 
+  // Need to create a setter for nickname
+
   public void updateFName(String newFName) {
     this.fName = newFName;
     System.out.println("You have changed your first name.");
