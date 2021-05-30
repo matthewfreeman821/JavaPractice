@@ -27,6 +27,9 @@ public class Person {
   }
 
   // Need to create a setter for nickname
+  public void setNickname(String newNickname) {
+    this.nickname = newNickname;
+  }
 
   public void updateFName(String newFName) {
     this.fName = newFName;
