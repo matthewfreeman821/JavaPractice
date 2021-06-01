@@ -13,6 +13,7 @@ public class App {
     maddie.updateFName("Madallyn");
     maddie.printFullName(maddie.fName, maddie.lName);
     maddie.printNickname(maddie.nickname);
+    System.out.println(maddie.getNickname());
     maddie.printAge(maddie.age);
     maddie.printDob(maddie.dob);
     maddie.addItemsToBag("water", maddieBag);
