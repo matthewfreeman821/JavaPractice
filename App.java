@@ -24,6 +24,7 @@ public class App {
     ali.updateFName("Alisa");
     ali.printFullName(ali.fName, ali.lName);
     ali.printNickname(ali.nickname);
+    System.out.println(ali.getNickname());
     ali.printAge(ali.age);
     ali.printDob(ali.dob);
     ali.addItemsToBag("chips", aliBag);
@@ -34,6 +35,7 @@ public class App {
     matthew.updateFName("Gordon");
     matthew.printFullName(matthew.fName, matthew.lName);
     matthew.printNickname(matthew.nickname);
+    System.out.println(matthew.getNickname());
     matthew.printAge(matthew.age);
     matthew.printDob(matthew.dob);
     matthew.addItemsToBag("tent", matthewBag);
