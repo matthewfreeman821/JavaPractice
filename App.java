@@ -42,6 +42,6 @@ public class App {
     matthew.addItemsToBag("small grill", matthewBag);
     matthew.printBagItems(matthewBag);
 
-    matthew.bag.forEach(System.out::println());
+    matthew.bag.forEach(System.out::println);
   }
 }
