@@ -19,7 +19,7 @@ public class Person {
   }
 
   public Person(String fName, String lName, int age, List bag, String dob) {
-    this.fName = fname;
+    this.fName = fName;
     this.lName = lName;
     this.age = age;
     this.bag = bag;
