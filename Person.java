@@ -63,7 +63,8 @@ public class Person {
 
   public void printBagItems(List bag) {
     System.out.println("The items in the bag are: ");
-    bag.forEach(str -> System.out.println(str));
+    // bag.forEach(str -> System.out.println(str));
+    bag.forEach(System.out::println);
   }
 
   public void addItemsToBag(String item, List bag) {
