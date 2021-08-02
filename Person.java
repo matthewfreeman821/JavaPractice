@@ -70,8 +70,12 @@ public class Person {
     // bag.forEach(System.out::println);
 
     // Enhanced for loop
-    for (String s : bag) {
-      System.out.pintln(str);
+    if (bag.size() == 0) {
+      System.out.println("Bag is empty");
+    } else {
+      for (String s : bag) {
+        System.out.pintln(str);
+      }
     }
 
   }
