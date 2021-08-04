@@ -90,7 +90,7 @@ public class Person {
 
   public void updateNickname(String newNickname) {
     this.nickname = newNickname;
-    System.out.println("You have updated your nickname");
+    System.out.println("You have updated your nickname.");
   }
 
   public void printNickname(String nickname) {
