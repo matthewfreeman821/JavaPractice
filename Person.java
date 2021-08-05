@@ -63,14 +63,15 @@ public class Person {
 
   public void printBagItems(List bag) {
     System.out.println("The items in the bag are: ");
-    // Lamda expression
-    // bag.forEach(str -> System.out.println(str));
 
-    // Consumer
-    // bag.forEach(System.out::println);
-
-    // Enhanced for loop
     if (bag.size() == 0) {
+      // Lamda expression
+      // bag.forEach(str -> System.out.println(str));
+
+      // Consumer
+      // bag.forEach(System.out::println);
+
+      // Enhanced for loop
       System.out.println("Bag is empty");
     } else {
       for (String s : bag) {
