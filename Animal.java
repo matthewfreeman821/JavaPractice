@@ -9,5 +9,7 @@ public class Animal {
   }
 
   // Give public getters and setters
-
+  public string getName() {
+    return this.name;
+  }
 }
