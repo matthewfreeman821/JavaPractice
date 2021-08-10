@@ -3,6 +3,10 @@ public class Animal {
   // Set variables to private
   private String name;
 
+  public void Animal() {
+
+  }
+
   public void Animal(String name) {
     this.name = name;
   }
