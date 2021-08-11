@@ -11,6 +11,10 @@ public class Animal {
     this.name = name;
   }
 
+  public void speak() {
+    System.out.println("Animal makes a sound");
+  }
+
   public string getName() {
     return this.name;
   }
