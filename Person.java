@@ -2,12 +2,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Person {
-  String fName;
-  String lName;
-  int age;
-  List<String> bag = new ArrayList();
-  String dob;
-  String nickname;
+  private String fName;
+  private String lName;
+  private int age;
+  private List<String> bag = new ArrayList();
+  private String dob;
+  private String nickname;
 
   public Person(String fName, String lName, int age, List bag, String dob, String nickname) {
     this.fName = fName;
