@@ -9,6 +9,9 @@ public class Person {
   private String dob;
   private String nickname;
 
+  public Person() {
+  };
+
   public Person(String fName, String lName, int age, List bag, String dob, String nickname) {
     this.fName = fName;
     this.lName = lName;
