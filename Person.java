@@ -47,8 +47,8 @@ public class Person {
     System.out.println("You have changed your last name.");
   }
 
-  public void printFullName(String fName, String lName) {
-    System.out.println(fName + " " + lName);
+  public void printFullName() {
+    System.out.println(this.fName + " " + this.lName);
   }
 
   public void printAge(int age) {
