@@ -97,7 +97,7 @@ public class Person {
     System.out.println("You have updated your nickname.");
   }
 
-  public void printNickname(String nickname) {
-    System.out.println(nickname);
+  public void printNickname() {
+    System.out.println(this.nickname);
   }
 }
