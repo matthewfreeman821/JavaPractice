@@ -60,8 +60,8 @@ public class Person {
     System.out.println("You have updated your age.");
   }
 
-  public void printDob(String dob) {
-    System.out.println("This person's date of birth is " + dob + ".");
+  public void printDob() {
+    System.out.println("This person's date of birth is " + this.dob + ".");
   }
 
   public void printBagItems(List bag) {
