@@ -51,7 +51,7 @@ public class Person {
     System.out.println(this.fName + " " + this.lName);
   }
 
-  public void printAge(int age) {
+  public void printAge() {
     System.out.println("This person's age is " + this.age + ".");
   }
 
