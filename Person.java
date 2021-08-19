@@ -64,10 +64,10 @@ public class Person {
     System.out.println("This person's date of birth is " + this.dob + ".");
   }
 
-  public void printBagItems(List bag) {
+  public void printBagItems() {
     System.out.println("The items in the bag are: ");
 
-    if (bag.size() == 0) {
+    if (this.bag.size() == 0) {
       // Lamda expression
       // bag.forEach(str -> System.out.println(str));
 
@@ -77,7 +77,7 @@ public class Person {
       // Enhanced for loop
       System.out.println("Bag is empty");
     } else {
-      for (String s : bag) {
+      for (String s : this.bag) {
         System.out.pintln(str);
       }
     }
