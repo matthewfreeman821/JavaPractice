@@ -69,10 +69,10 @@ public class Person {
 
     if (this.bag.size() == 0) {
       // Lamda expression
-      // bag.forEach(str -> System.out.println(str));
+      // this.bag.forEach(str -> System.out.println(str));
 
       // Consumer
-      // bag.forEach(System.out::println);
+      // this.bag.forEach(System.out::println);
 
       // Enhanced for loop
       System.out.println("Bag is empty");
