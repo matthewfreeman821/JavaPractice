@@ -12,7 +12,7 @@ public class App {
     Person ali = new Person("Ali", "Freeman", 4, aliBag, "4 Dec 2016", "Ali");
     maddie.printFullName();
     maddie.updateFName("Madallyn");
-    maddie.printFullName(maddie.fName, maddie.lName);
+    maddie.printFullName();
     maddie.printNickname(maddie.nickname);
     System.out.println(maddie.getNickname());
     maddie.printAge(maddie.age);
