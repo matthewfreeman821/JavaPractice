@@ -13,7 +13,7 @@ public class App {
     maddie.printFullName();
     maddie.updateFName("Madallyn");
     maddie.printFullName();
-    maddie.printNickname(maddie.nickname);
+    maddie.printNickname();
     System.out.println(maddie.getNickname());
     maddie.printAge(maddie.age);
     maddie.printDob(maddie.dob);
