@@ -16,7 +16,7 @@ public class App {
     maddie.printNickname();
     System.out.println(maddie.getNickname());
     maddie.printAge();
-    maddie.printDob(maddie.dob);
+    maddie.printDob();
     maddie.addItemsToBag("water", maddieBag);
     maddie.addItemsToBag("potatoes", maddieBag);
     maddie.printBagItems(maddieBag);
