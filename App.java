@@ -19,7 +19,7 @@ public class App {
     maddie.printDob();
     maddie.addItemsToBag("water", maddieBag);
     maddie.addItemsToBag("potatoes", maddieBag);
-    maddie.printBagItems(maddieBag);
+    maddie.printBagItems();
 
     ali.printFullName(ali.fName, ali.lName);
     ali.updateFName("Alisa");
