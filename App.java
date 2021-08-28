@@ -23,7 +23,7 @@ public class App {
 
     ali.printFullName();
     ali.updateFName("Alisa");
-    ali.printFullName(ali.fName, ali.lName);
+    ali.printFullName();
     ali.printNickname(ali.nickname);
     System.out.println(ali.getNickname());
     ali.printAge(ali.age);
