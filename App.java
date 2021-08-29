@@ -24,7 +24,7 @@ public class App {
     ali.printFullName();
     ali.updateFName("Alisa");
     ali.printFullName();
-    ali.printNickname(ali.nickname);
+    ali.printNickname();
     System.out.println(ali.getNickname());
     ali.printAge(ali.age);
     ali.printDob(ali.dob);
