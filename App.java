@@ -25,8 +25,9 @@ public class App {
     ali.updateFName("Alisa");
     ali.printFullName();
     ali.printNickname();
+    // Check this line to see if method exist to print nickname
     System.out.println(ali.getNickname());
-    ali.printAge(ali.age);
+    ali.printAge();
     ali.printDob(ali.dob);
     ali.addItemsToBag("chips", aliBag);
     ali.addItemsToBag("hotdogs", aliBag);
