@@ -33,7 +33,7 @@ public class App {
     ali.addItemsToBag("hotdogs", aliBag);
     ali.printBagItems();
 
-    matthew.printFullName(matthew.fName, matthew.lName);
+    matthew.printFullName();
     matthew.updateFName("Gordon");
     matthew.printFullName(matthew.fName, matthew.lName);
     matthew.printNickname(matthew.nickname);
