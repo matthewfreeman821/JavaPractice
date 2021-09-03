@@ -35,7 +35,7 @@ public class App {
 
     matthew.printFullName();
     matthew.updateFName("Gordon");
-    matthew.printFullName(matthew.fName, matthew.lName);
+    matthew.printFullName();
     matthew.printNickname(matthew.nickname);
     System.out.println(matthew.getNickname());
     matthew.printAge(matthew.age);
