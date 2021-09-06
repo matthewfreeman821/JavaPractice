@@ -39,7 +39,7 @@ public class App {
     matthew.printNickname();
     System.out.println(matthew.getNickname());
     matthew.printAge();
-    matthew.printDob(matthew.dob);
+    matthew.printDob();
     matthew.addItemsToBag("tent", matthewBag);
     matthew.addItemsToBag("small grill", matthewBag);
     matthew.printBagItems(matthewBag);
