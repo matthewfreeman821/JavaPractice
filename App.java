@@ -42,7 +42,7 @@ public class App {
     matthew.printDob();
     matthew.addItemsToBag("tent", matthewBag);
     matthew.addItemsToBag("small grill", matthewBag);
-    matthew.printBagItems(matthewBag);
+    matthew.printBagItems();
 
     // matthew.bag.forEach(System.out::println);
   }
