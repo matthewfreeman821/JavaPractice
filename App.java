@@ -14,7 +14,8 @@ public class App {
     maddie.updateFName("Madallyn");
     maddie.printFullName();
     maddie.printNickname();
-    System.out.println(maddie.getNickname());
+    // System.out.println(maddie.getNickname());
+    maddie.printNickname();
     maddie.printAge();
     maddie.printDob();
     maddie.addItemsToBag("water", maddieBag);
