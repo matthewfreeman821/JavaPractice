@@ -45,7 +45,5 @@ public class App {
     matthew.addItemsToBag("tent", matthewBag);
     matthew.addItemsToBag("small grill", matthewBag);
     matthew.printBagItems();
-
-    // matthew.bag.forEach(System.out::println);
   }
 }
