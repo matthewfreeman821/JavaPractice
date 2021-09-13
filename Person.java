@@ -64,6 +64,10 @@ public class Person {
     System.out.println("This person's date of birth is " + this.dob + ".");
   }
 
+  public String getDob() {
+    return this.dob;
+  }
+
   public void printBagItems() {
     System.out.println("The items in the bag are: ");
 
