@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Person {
+public class Person extends Animal {
   private String fName;
   private String lName;
   private int age;
