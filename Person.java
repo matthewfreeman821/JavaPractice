@@ -104,4 +104,9 @@ public class Person extends Animal {
   public void printNickname() {
     System.out.println(this.nickname);
   }
+
+  @Override
+  private void speak() {
+    System.out.println("Hello");
+  }
 }
