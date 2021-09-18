@@ -106,7 +106,7 @@ public class Person extends Animal {
   }
 
   @Override
-  private void speak() {
+  public void speak() {
     System.out.println("Hello");
   }
 }
