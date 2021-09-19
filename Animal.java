@@ -3,7 +3,7 @@ public class Animal {
   // Set variables to private
   private String name;
 
-  private void speak() {
+  public void speak() {
     System.out.println("Animal makes a sound");
   }
 
