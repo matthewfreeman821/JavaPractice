@@ -34,6 +34,7 @@ public class App {
     ali.addItemsToBag("chips", aliBag);
     ali.addItemsToBag("hotdogs", aliBag);
     ali.printBagItems();
+    ali.speak();
 
     matthew.printFullName();
     matthew.updateFName("Gordon");
