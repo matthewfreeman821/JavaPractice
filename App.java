@@ -3,7 +3,6 @@ import java.util.List;
 
 public class App {
   public static void main(String[] args) {
-    // Need to update calls since fields are private now
     List<String> matthewBag = new ArrayList<>();
     List<String> maddieBag = new ArrayList<>();
     List<String> aliBag = new ArrayList<>();
