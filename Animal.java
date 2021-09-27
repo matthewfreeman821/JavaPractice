@@ -19,7 +19,7 @@ public class Animal {
     this.name = name;
   }
 
-  public string getName() {
+  public String getName() {
     return this.name;
   }
 
