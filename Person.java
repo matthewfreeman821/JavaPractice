@@ -82,7 +82,6 @@ public class Person extends Animal {
       System.out.println("Bag is empty");
     } else {
       for (String s : this.bag) {
-        // Change to println(s)
         System.out.pintln(s);
       }
     }
