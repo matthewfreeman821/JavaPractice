@@ -1,4 +1,4 @@
-public class Snake {
+public class Snake extends Animal {
   private String name;
 
   public void Snake() {
