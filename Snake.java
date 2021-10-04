@@ -7,4 +7,12 @@ public class Snake extends Animal {
   public void Snake(String name) {
     name = this.name;
   }
+
+  public String getName() {
+    return this.name;
+  }
+
+  public void setName(String newName) {
+    this.name = newName;
+  }
 }
