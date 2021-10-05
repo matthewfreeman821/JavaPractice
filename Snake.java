@@ -1,11 +1,17 @@
 public class Snake extends Animal {
   private String name;
+  private Person owner;
 
   public void Snake() {
   };
 
   public void Snake(String name) {
-    name = this.name;
+    this.name = name;
+  }
+
+  public void Snake(String name, Person owner) {
+    this.name = name;
+    this.owner = owner;
   }
 
   public String getName() {
