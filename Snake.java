@@ -21,4 +21,12 @@ public class Snake extends Animal {
   public void setName(String newName) {
     this.name = newName;
   }
+
+  public Person getOwner() {
+    return this.owner;
+  }
+
+  public void setOwner(Person owner) {
+    this.owner = owner;
+  }
 }
