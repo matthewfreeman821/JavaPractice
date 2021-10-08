@@ -33,4 +33,8 @@ public class Snake extends Animal {
   public void setOwner(Person owner) {
     this.owner = owner;
   }
+
+  public void printOwner() {
+    System.out.println(this.owner);
+  }
 }
