@@ -2,6 +2,10 @@ public class Snake extends Animal {
   private String name;
   private Person owner;
 
+  public void speak() {
+    system.out.println("HISSS");
+  }
+
   public void Snake() {
   };
 
