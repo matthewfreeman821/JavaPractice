@@ -23,6 +23,7 @@ public class App {
     maddie.speak();
     bowey.printOwner();
     bowey.printName();
+    bowey.speak();
 
     ali.printFullName();
     ali.updateFName("Alisa");
