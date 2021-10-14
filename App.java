@@ -21,9 +21,11 @@ public class App {
     maddie.addItemsToBag("potatoes", maddieBag);
     maddie.printBagItems();
     maddie.speak();
+
     bowey.printOwner();
     bowey.printName();
     bowey.speak();
+    bowey.setOwner(matthew);
 
     ali.printFullName();
     ali.updateFName("Alisa");
