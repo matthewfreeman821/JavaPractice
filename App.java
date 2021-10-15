@@ -26,6 +26,7 @@ public class App {
     bowey.printName();
     bowey.speak();
     bowey.setOwner(matthew);
+    bowey.printOwner();
 
     ali.printFullName();
     ali.updateFName("Alisa");
