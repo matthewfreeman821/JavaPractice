@@ -2,6 +2,7 @@ public class Snake extends Animal {
   private String name;
   private Person owner;
 
+  @Override
   public void speak() {
     system.out.println("HISSS");
   }
