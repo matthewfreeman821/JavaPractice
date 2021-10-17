@@ -15,7 +15,7 @@ public class Animal {
     System.out.println("Animal makes a sound");
   }
 
-  private void walk() {
+  public void walk() {
     System.out.println("Animal walks");
   }
 
