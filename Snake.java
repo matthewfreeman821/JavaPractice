@@ -28,9 +28,9 @@ public class Snake extends Animal {
   // return this.name;
   // }
 
-  public void setName(String newName) {
-    this.name = newName;
-  }
+  // public void setName(String newName) {
+  // this.name = newName;
+  // }
 
   public void printName() {
     System.out.println(this.name);
