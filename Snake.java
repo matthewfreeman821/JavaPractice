@@ -49,4 +49,8 @@ public class Snake extends Animal {
   public void setLength(Integer length) {
     this.length = length;
   }
+
+  public Integer getWeight() {
+    return this.weight;
+  }
 }
