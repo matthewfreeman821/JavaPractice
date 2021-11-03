@@ -29,6 +29,7 @@ public class App {
     bowey.printOwner();
     bowey.walk();
     bowey.getName();
+    bowey.getWeight();
 
     ali.printFullName();
     ali.updateFName("Alisa");
