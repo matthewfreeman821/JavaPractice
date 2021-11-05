@@ -29,6 +29,7 @@ public class App {
     bowey.printOwner();
     bowey.walk();
     bowey.getName();
+    bowey.setWeight(310);
     bowey.getWeight();
     bowey.getLength();
 
