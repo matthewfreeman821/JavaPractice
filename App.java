@@ -31,7 +31,6 @@ public class App {
     bowey.getName();
     bowey.setWeight(310);
     bowey.getWeight();
-    bowey.getLength();
     bowey.setLength(35);
     bowey.getLength();
 
