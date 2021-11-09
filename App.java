@@ -10,6 +10,7 @@ public class App {
     Person maddie = new Person("Maddie", "Freeman", 8, maddieBag, "20 March 2013", "Maddie");
     Person ali = new Person("Ali", "Freeman", 4, aliBag, "4 Dec 2016", "Ali");
     Snake bowey = new Snake("Bowey", maddie, 32);
+    Snake princess = new Snake("Princess", ali, 20, 156);
     maddie.printFullName();
     maddie.updateFName("Madallyn");
     maddie.printFullName();
