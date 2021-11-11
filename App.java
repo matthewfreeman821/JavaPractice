@@ -36,6 +36,7 @@ public class App {
     bowey.getLength();
 
     princess.printOwner();
+    princess.setOwner(maddie);
 
     ali.printFullName();
     ali.updateFName("Alisa");
