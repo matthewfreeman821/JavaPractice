@@ -37,6 +37,7 @@ public class App {
 
     princess.printOwner();
     princess.setOwner(maddie);
+    princess.printOwner();
 
     ali.printFullName();
     ali.updateFName("Alisa");
