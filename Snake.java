@@ -2,7 +2,6 @@ public class Snake extends Animal {
   private String name;
   private Person owner;
   private Ineger length;
-  private Integer weight;
 
   @Override
   public void speak() {
