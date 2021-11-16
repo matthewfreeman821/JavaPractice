@@ -31,13 +31,6 @@ public class Snake extends Animal {
     this.length = length;
   }
 
-  public void Snake(String name, Person owner, Integer length, Integer weight) {
-    this.name = name;
-    this.owner = owner;
-    this.length = length;
-    this.weight = weight;
-  }
-
   public void printName() {
     System.out.println(this.name);
   }
