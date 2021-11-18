@@ -2,6 +2,7 @@
 public class Animal {
   // Set variables to private
   private String name;
+  private Integer weight;
 
   public void Animal() {
 
