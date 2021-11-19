@@ -28,4 +28,8 @@ public class Animal {
     this.name = name;
 
   }
+
+  public void setWeight(Integer weight) {
+    this.weight = weight;
+  }
 }
