@@ -12,6 +12,11 @@ public class Animal {
     this.name = name;
   }
 
+  public void Animal(String name, Integer weight) {
+    this.name = name;
+    this.weight = weight;
+  }
+
   public void speak() {
     System.out.println("Animal makes a sound");
   }
