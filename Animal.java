@@ -34,6 +34,10 @@ public class Animal {
 
   }
 
+  public Integer getWeight() {
+    return this.weight;
+  }
+
   public void setWeight(Integer weight) {
     this.weight = weight;
   }
