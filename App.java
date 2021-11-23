@@ -30,8 +30,6 @@ public class App {
     bowey.getName();
     bowey.setWeight(310);
     bowey.getWeight();
-    bowey.setLength(35);
-    bowey.getLength();
 
     ali.printFullName();
     ali.updateFName("Alisa");
