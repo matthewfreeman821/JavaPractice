@@ -33,6 +33,8 @@ public class App {
 
     princess.setWeight(400);
 
+    System.out.println("Happy Thanksgiving");
+
     ali.printFullName();
     ali.updateFName("Alisa");
     ali.printFullName();
