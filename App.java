@@ -23,6 +23,7 @@ public class App {
     maddie.printBagItems();
     maddie.speak();
     maddie.setWeight(54);
+    maddie.getWeight();
 
     bowey.printOwner();
     bowey.printName();
