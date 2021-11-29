@@ -8,6 +8,7 @@ public class Person extends Animal {
   private List<String> bag = new ArrayList();
   private String dob;
   private String nickname;
+  private Integer height;
 
   public Person() {
   };
