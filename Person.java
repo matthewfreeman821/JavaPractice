@@ -13,6 +13,16 @@ public class Person extends Animal {
   public Person() {
   };
 
+  public Person(String fName, String lName, int age, List bag, String dob, String nickname, Integer height) {
+    this.fName = fName;
+    this.lName = lName;
+    this.age = age;
+    this.bag = bag;
+    this.dob = dob;
+    this.nickname = nickname;
+    this.height = height;
+  }
+
   public Person(String fName, String lName, int age, List bag, String dob, String nickname) {
     this.fName = fName;
     this.lName = lName;
