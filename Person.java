@@ -120,4 +120,8 @@ public class Person extends Animal {
   public void speak() {
     System.out.println("Hello");
   }
+
+  public Intger getHeight() {
+    return this.height;
+  }
 }
