@@ -124,4 +124,8 @@ public class Person extends Animal {
   public Intger getHeight() {
     return this.height;
   }
+
+  public void setHeight(Integer height) {
+    this.height = height;
+  }
 }
