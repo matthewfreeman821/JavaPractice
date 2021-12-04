@@ -47,6 +47,7 @@ public class App {
     ali.printBagItems();
     ali.speak();
     ali.setHeight(40);
+    ali.getHeight();
 
     matthew.printFullName();
     matthew.updateFName("Gordon");
