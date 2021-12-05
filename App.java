@@ -60,5 +60,6 @@ public class App {
     matthew.addItemsToBag("small grill", matthewBag);
     matthew.printBagItems();
     matthew.speak();
+    matthew.setHeight(67);
   }
 }
