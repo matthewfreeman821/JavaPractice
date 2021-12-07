@@ -22,7 +22,7 @@ public class Animal {
   }
 
   public void move() {
-    System.out.println("Animal walks");
+    System.out.println("Animal moves");
   }
 
   public String getName() {
