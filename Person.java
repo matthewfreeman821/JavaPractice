@@ -121,6 +121,11 @@ public class Person extends Animal {
     System.out.println("Hello");
   }
 
+  @Override
+  public void move() {
+    System.out.println(this.fName + " walks.");
+  }
+
   public Intger getHeight() {
     return this.height;
   }
