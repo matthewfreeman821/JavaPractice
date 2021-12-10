@@ -9,7 +9,7 @@ public class Snake extends Animal {
   }
 
   @Override
-  public void walk() {
+  public void move() {
     System.out.println("Animal slithers");
   }
 
