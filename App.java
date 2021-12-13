@@ -62,5 +62,6 @@ public class App {
     matthew.printBagItems();
     matthew.speak();
     matthew.setHeight(67);
+    matthew.move();
   }
 }
