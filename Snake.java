@@ -5,7 +5,7 @@ public class Snake extends Animal {
 
   @Override
   public void speak() {
-    system.out.println("HISSS");
+    System.out.println("HISSS");
   }
 
   @Override
