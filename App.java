@@ -9,8 +9,8 @@ public class App {
     Person matthew = new Person("Matthew", "Freeman", 34, matthewBag, "7 June 1990", "Matt");
     Person maddie = new Person("Maddie", "Freeman", 8, maddieBag, "20 March 2013", "Maddie");
     Person ali = new Person("Ali", "Freeman", 4, aliBag, "4 Dec 2016", "Ali");
-    Snake bowey = new Snake("Bowey", maddie, 32);
-    Snake princess = new Snake("Princess", ali);
+    Snake bowey = new Snake();
+    Snake princess = new Snake();
     maddie.printFullName();
     maddie.updateFName("Madallyn");
     maddie.printFullName();
