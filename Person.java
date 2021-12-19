@@ -126,7 +126,7 @@ public class Person extends Animal {
     System.out.println(this.fName + " walks.");
   }
 
-  public Inetger getHeight() {
+  public Integer getHeight() {
     return this.height;
   }
 
