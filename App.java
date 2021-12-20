@@ -31,7 +31,7 @@ public class App {
     bowey.speak();
     bowey.getName();
     bowey.setWeight(310);
-    bowey.getWeight();
+    System.out.println(bowey.getWeight());
     bowey.move();
 
     princess.setWeight(400);
