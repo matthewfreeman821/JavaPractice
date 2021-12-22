@@ -13,7 +13,7 @@ public class Snake extends Animal {
     System.out.println("Animal slithers");
   }
 
-  public void Snake() {
+  public Snake() {
   };
 
   public Snake(String name) {
