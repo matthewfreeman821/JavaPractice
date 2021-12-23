@@ -20,7 +20,7 @@ public class Snake extends Animal {
     this.name = name;
   }
 
-  public void Snake(String name, Person owner) {
+  public Snake(String name, Person owner) {
     this.name = name;
     this.owner = owner;
   }
