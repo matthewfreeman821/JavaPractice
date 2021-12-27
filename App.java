@@ -10,7 +10,7 @@ public class App {
     Person maddie = new Person("Maddie", "Freeman", 8, maddieBag, "20 March 2013", "Maddie");
     Person ali = new Person("Ali", "Freeman", 4, aliBag, "4 Dec 2016", "Ali");
     Snake bowey = new Snake("Bowey", ali);
-    Snake princess = new Snake();
+    Snake princess = new Snake("Princess");
     maddie.printFullName();
     maddie.updateFName("Madallyn");
     maddie.printFullName();
@@ -35,6 +35,7 @@ public class App {
     bowey.move();
 
     princess.setWeight(400);
+    princess.setOwner(maddie);
 
     ali.printFullName();
     ali.updateFName("Alisa");
