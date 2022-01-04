@@ -1,5 +1,4 @@
 public class Snake extends Animal {
-  private String name;
   private Person owner;
   private Integer length;
 
