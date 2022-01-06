@@ -20,8 +20,7 @@ public class Snake extends Animal {
     this.owner = owner;
   }
 
-  public Snake(String name, Person owner, Integer length) {
-    this.name = name;
+  public Snake(Person owner, Integer length) {
     this.owner = owner;
     this.length = length;
   }
