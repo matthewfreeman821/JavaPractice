@@ -25,10 +25,6 @@ public class Snake extends Animal {
     this.length = length;
   }
 
-  public void printName() {
-    System.out.println(this.name);
-  }
-
   public Person getOwner() {
     return this.owner;
   }
