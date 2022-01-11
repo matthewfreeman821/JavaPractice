@@ -27,7 +27,6 @@ public class App {
     maddie.move();
 
     bowey.printOwner();
-    bowey.printName();
     bowey.speak();
     bowey.getName();
     bowey.setWeight(310);
