@@ -3,7 +3,7 @@ public class Animal {
   private String name;
   private Integer weight;
 
-  public void Animal() {
+  public Animal() {
 
   }
 
