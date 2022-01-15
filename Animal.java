@@ -11,7 +11,7 @@ public class Animal {
     this.name = name;
   }
 
-  public void Animal(String name, Integer weight) {
+  public Animal(String name, Integer weight) {
     this.name = name;
     this.weight = weight;
   }
