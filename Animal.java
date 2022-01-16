@@ -7,7 +7,7 @@ public class Animal {
 
   }
 
-  public void Animal(String name) {
+  public Animal(String name) {
     this.name = name;
   }
 
