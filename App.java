@@ -33,6 +33,7 @@ public class App {
     bowey.move();
 
     princess.setWeight(400);
+    System.out.println(princess.getWeight());
     princess.getOwner();
 
     ali.printFullName();
