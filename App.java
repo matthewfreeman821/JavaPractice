@@ -34,7 +34,7 @@ public class App {
 
     princess.setWeight(400);
     System.out.println(princess.getWeight());
-    System.out.println(princess.getOwner());
+    System.out.println(princess.getOwner().getName());
 
     // ali.printFullName();
     // ali.updateFName("Alisa");
