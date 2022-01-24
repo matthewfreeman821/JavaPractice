@@ -39,6 +39,8 @@ public class App {
     princess.setOwner(Ali);
     System.out.println(princess.getOwner().getName());
 
+    bowey.setName("Bowey");
+
     // ali.printFullName();
     // ali.updateFName("Alisa");
     // ali.printFullName();
