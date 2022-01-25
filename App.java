@@ -40,7 +40,7 @@ public class App {
     System.out.println(princess.getOwner().getName());
 
     bowey.setName("Bowey");
-
+    System.out.println(bowey.getName());
     // ali.printFullName();
     // ali.updateFName("Alisa");
     // ali.printFullName();
