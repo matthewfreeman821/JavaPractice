@@ -11,26 +11,6 @@ public class App {
     Person ali = new Person("Ali", "Freeman", 4, aliBag, "4 Dec 2016", "Ali");
     Snake bowey = new Snake(ali);
     Snake princess = new Snake(maddie);
-    // maddie.printFullName();
-    // maddie.updateFName("Madallyn");
-    // maddie.printFullName();
-    // maddie.printNickname();
-    // maddie.printNickname();
-    // maddie.printAge();
-    // maddie.printDob();
-    // maddie.addItemsToBag("water", maddieBag);
-    // maddie.addItemsToBag("potatoes", maddieBag);
-    // maddie.printBagItems();
-    // maddie.speak();
-    // maddie.setWeight(54);
-    // maddie.getWeight();
-    // maddie.move();
-
-    // bowey.printOwner();
-    // bowey.speak();
-    // bowey.setWeight(310);
-    // System.out.println(bowey.getWeight());
-    // bowey.move();
 
     princess.setWeight(400);
     princess.setName("Princess");
@@ -41,32 +21,5 @@ public class App {
 
     bowey.setName("Bowey");
     System.out.println(bowey.getName());
-    // ali.printFullName();
-    // ali.updateFName("Alisa");
-    // ali.printFullName();
-    // ali.printNickname();
-    // ali.printNickname();
-    // ali.printAge();
-    // ali.printDob();
-    // ali.addItemsToBag("chips", aliBag);
-    // ali.addItemsToBag("hotdogs", aliBag);
-    // ali.printBagItems();
-    // ali.speak();
-    // ali.setHeight(40);
-    // ali.getHeight();
-
-    // matthew.printFullName();
-    // matthew.updateFName("Gordon");
-    // matthew.printFullName();
-    // matthew.printNickname();
-    // matthew.printNickname();
-    // matthew.printAge();
-    // matthew.printDob();
-    // matthew.addItemsToBag("tent", matthewBag);
-    // matthew.addItemsToBag("small grill", matthewBag);
-    // matthew.printBagItems();
-    // matthew.speak();
-    // matthew.setHeight(67);
-    // matthew.move();
   }
 }
