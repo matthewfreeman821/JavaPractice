@@ -133,4 +133,8 @@ public class Person extends Animal {
   public void setHeight(Integer height) {
     this.height = height;
   }
+
+  // Create method to determine if person has snake
+
+  // Create method where if person has a snake, they can play with it
 }
