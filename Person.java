@@ -9,6 +9,7 @@ public class Person extends Animal {
   private String dob;
   private String nickname;
   private Integer height;
+  private Snake snake;
 
   public Person() {
   };
