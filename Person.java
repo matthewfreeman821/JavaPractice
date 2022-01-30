@@ -136,6 +136,13 @@ public class Person extends Animal {
   }
 
   // Create method to determine if person has snake
+  public Boolean hasSnake() {
+    // Test if snake is present
+    if (this.snake == null) {
+      return false;
+    }
+    return true;
+  }
 
   // Create method where if person has a snake, they can play with it
 }
