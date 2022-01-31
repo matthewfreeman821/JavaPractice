@@ -145,4 +145,8 @@ public class Person extends Animal {
   }
 
   // Create method where if person has a snake, they can play with it
+  public void playWithSnake() {
+    // Check if snake is present
+    // play if present
+  }
 }
