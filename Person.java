@@ -144,6 +144,11 @@ public class Person extends Animal {
     return true;
   }
 
+  // Setters and getters for snake
+  public void setSnake(Snake snake) {
+    this.snake = snake;
+  }
+
   // Create method where if person has a snake, they can play with it
   public void playWithSnake() {
     // Check if snake is present
