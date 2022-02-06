@@ -157,6 +157,6 @@ public class Person extends Animal {
       System.out.println("Get yourself a snake to play with!");
     }
     // play if present
-    System.out.println(this.getName() + " holds the snake.");
+    System.out.println(this.getNickname() + " holds the snake.");
   }
 }
