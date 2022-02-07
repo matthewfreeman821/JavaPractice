@@ -49,6 +49,12 @@ public class Person extends Animal {
     return this.nickname;
   }
 
+  @Override
+  public String getName() {
+    String name = this.fName + this.lName;
+    return name;
+  }
+
   public void updateFName(String newFName) {
     this.fName = newFName;
     System.out.println("You have changed your first name.");
