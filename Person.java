@@ -51,7 +51,7 @@ public class Person extends Animal {
 
   @Override
   public String getName() {
-    String name = this.fName + this.lName;
+    String name = this.fName + " " + this.lName;
     return name;
   }
 
