@@ -167,4 +167,7 @@ public class Person extends Animal {
   }
 
   // Create similar method to feed snake
+  public void feedSnake() {
+    System.out.println(" feeds the snake");
+  }
 }
