@@ -172,7 +172,8 @@ public class Person extends Animal {
     if (this.snake == null) {
       System.out.println("This person does not have a snake!");
       System.out.println("Get yourself a snake to play with!");
+    } else {
+      System.out.println(" feeds the snake");
     }
-    System.out.println(" feeds the snake");
   }
 }
