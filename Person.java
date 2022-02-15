@@ -173,7 +173,7 @@ public class Person extends Animal {
       System.out.println("This person does not have a snake!");
       System.out.println("Get yourself a snake to play with!");
     } else {
-      System.out.println(" feeds the snake");
+      System.out.println(this.getName() + " feeds the snake");
     }
   }
 }
