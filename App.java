@@ -15,6 +15,7 @@ public class App {
     matthew.setSnake(bowey);
     if (matthew.hasSnake()) {
       matthew.playWithSnake();
+      matthew.feedSnake();
     }
   }
 }
