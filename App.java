@@ -17,5 +17,6 @@ public class App {
       matthew.playWithSnake();
       matthew.feedSnake();
     }
+    matthew.playWithSnake();
   }
 }
