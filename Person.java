@@ -153,6 +153,7 @@ public class Person extends Animal {
   // Setters and getters for snake
   public void setSnake(Snake snake) {
     this.snake = snake;
+    this.snake.setOwner(this);
   }
 
   // Create method where if person has a snake, they can play with it
