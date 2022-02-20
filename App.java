@@ -12,10 +12,7 @@ public class App {
     Snake bowey = new Snake(ali);
     Snake princess = new Snake(maddie);
 
-    if (matthew.hasSnake()) {
-      matthew.playWithSnake();
-      matthew.feedSnake();
-    }
+    matthew.setSnake(bowey);
     matthew.playWithSnake();
   }
 }
