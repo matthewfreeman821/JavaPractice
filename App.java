@@ -14,6 +14,6 @@ public class App {
 
     matthew.setSnake(bowey);
     matthew.playWithSnake();
-    System.out.println(bowey.getOwner());
+    System.out.println(bowey.getOwner().getName());
   }
 }
