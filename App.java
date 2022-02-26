@@ -17,5 +17,6 @@ public class App {
     System.out.println(bowey.getOwner().getName());
     System.out.println(princess.getOwner().getName());
     ali.setSnake(princess);
+    System.out.println(princess.getOwner().getName());
   }
 }
