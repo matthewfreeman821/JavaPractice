@@ -155,9 +155,10 @@ public class Person extends Animal {
     if (null != snake.getOwner()) {
       snake.setOwner(this);
       this.snake = snake;
+    } else {
+      this.snake = snake;
+      this.snake.setOwner(this);
     }
-    this.snake = snake;
-    this.snake.setOwner(this);
   }
 
   // Create method where if person has a snake, they can play with it
