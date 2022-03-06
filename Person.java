@@ -153,6 +153,7 @@ public class Person extends Animal {
   // Setters and getters for snake
   public void setSnake(Snake snake) {
     if (null != snake.getOwner()) {
+      // Cannot set with null. Needs something else
       snake.getOwner().setSnake(null);
       snake.setOwner(this);
       this.snake = snake;
