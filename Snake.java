@@ -1,5 +1,6 @@
 public class Snake extends Animal {
   private Person owner;
+  private Person previousOwner;
   private Integer length;
 
   @Override
