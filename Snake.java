@@ -50,4 +50,7 @@ public class Snake extends Animal {
     this.length = length;
   }
 
+  public void setPreviousOwner(Person previousOwner) {
+    this.previousOwner = previousOwner;
+  }
 }
