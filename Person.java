@@ -155,6 +155,7 @@ public class Person extends Animal {
     if (null != snake.getOwner()) {
       snake.setPreviousOwner(snake.getOwner());
       this.snake = snake;
+      this.snake.setOwner(this);
     } else {
       this.snake = snake;
       this.snake.setOwner(this);
