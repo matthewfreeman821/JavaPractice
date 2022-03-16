@@ -176,7 +176,7 @@ public class Person extends Animal {
 
   // Create similar method to feed snake
   public void feedSnake() {
-    if (this.snake == null) {
+    if (this.snake == null || this.snake.getPreviousOwner() != null) {
       System.out.println("This person does not have a snake!");
       System.out.println("Get yourself a snake to play with!");
     } else {
