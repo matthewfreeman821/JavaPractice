@@ -165,7 +165,7 @@ public class Person extends Animal {
   // Create method where if person has a snake, they can play with it
   public void playWithSnake() {
     // Check if snake is present
-    if (this.snake == null) {
+    if (this.snake == null || this.snake.getPreviousOwner() != null) {
       System.out.println("This person does not have a snake!");
       System.out.println("Get yourself a snake to play with!");
     } else {
