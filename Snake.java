@@ -21,10 +21,6 @@ public class Snake extends Animal {
     this.owner.setSnake(this);
   }
 
-  public Snake(String noOwner) {
-
-  }
-
   public Snake(Person owner, Integer length) {
     this.owner = owner;
     this.length = length;
