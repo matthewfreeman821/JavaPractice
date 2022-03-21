@@ -12,14 +12,5 @@ public class App {
     Snake bowey = new Snake(ali);
     Snake princess = new Snake(maddie);
 
-    matthew.setSnake(bowey);
-    matthew.playWithSnake();
-    System.out.println(bowey.getOwner().getName());
-    System.out.println("Before setting new owner: " + princess.getOwner().getName());
-    ali.setSnake(princess);
-    System.out.println("After setting new owner: " + princess.getOwner().getName());
-    maddie.playWithSnake();
-    maddie.feedSnake();
-    System.out.println(princess.getPreviousOwner().getName());
   }
 }
