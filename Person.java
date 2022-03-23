@@ -183,4 +183,8 @@ public class Person extends Animal {
     }
     System.out.println(this.getName() + " feeds the snake");
   }
+
+  public void setBirthday(String birthday) {
+    this.birthday = birthday;
+  }
 }
