@@ -12,5 +12,6 @@ public class App {
     Snake bowey = new Snake(ali);
     Snake princess = new Snake(maddie);
 
+    maddie.setBirthday("27 MAR 2013");
   }
 }
