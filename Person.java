@@ -11,6 +11,7 @@ public class Person extends Animal {
   private Integer height;
   private Snake snake;
   private String birthday;
+  private Animal pet;
 
   public Person() {
   };
