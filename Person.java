@@ -192,4 +192,8 @@ public class Person extends Animal {
   public String getBirthday() {
     return this.birthday;
   }
+
+  public void setPet(Animal pet) {
+    this.pet = pet;
+  }
 }
