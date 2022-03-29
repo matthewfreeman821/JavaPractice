@@ -196,4 +196,8 @@ public class Person extends Animal {
   public void setPet(Animal pet) {
     this.pet = pet;
   }
+
+  public Animal getPet() {
+    return this.pet;
+  }
 }
