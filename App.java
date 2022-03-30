@@ -11,6 +11,7 @@ public class App {
     Person ali = new Person("Ali", "Freeman", 4, aliBag, "4 Dec 2016", "Ali");
     Snake bowey = new Snake(ali);
     Snake princess = new Snake(maddie);
+    Animal duke = new Animal(duke);
 
     maddie.setBirthday("27 MAR 2013");
     System.out.println(maddie.getBirthday());
