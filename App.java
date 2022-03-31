@@ -14,6 +14,7 @@ public class App {
     Animal duke = new Animal(duke);
 
     maddie.setBirthday("27 MAR 2013");
+    maddie.setPet(duke);
     System.out.println(maddie.getBirthday());
   }
 }
