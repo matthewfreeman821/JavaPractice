@@ -15,6 +15,6 @@ public class App {
 
     maddie.setBirthday("27 MAR 2013");
     maddie.setPet(duke);
-    System.out.println(maddie.getBirthday());
+    System.out.println(maddie.getPet());
   }
 }
