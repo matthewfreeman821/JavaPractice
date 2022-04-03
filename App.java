@@ -13,7 +13,6 @@ public class App {
     Snake princess = new Snake(maddie);
     Animal duke = new Animal(duke);
 
-    maddie.setBirthday("27 MAR 2013");
     maddie.setPet(duke);
     System.out.println(maddie.getPet().getName());
   }
