@@ -13,7 +13,5 @@ public class App {
     Snake princess = new Snake(maddie);
     Animal duke = new Animal(duke);
 
-    maddie.setPet(duke);
-    System.out.println(maddie.getPet().getName());
   }
 }
