@@ -1,4 +1,3 @@
-//Perhaps change to an abstract class?
 public class Animal {
   private String name;
   private Integer weight;
