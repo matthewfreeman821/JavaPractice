@@ -14,5 +14,6 @@ public class App {
     Animal duke = new Animal(duke);
 
     duke.speak();
+    bowey.speak();
   }
 }
