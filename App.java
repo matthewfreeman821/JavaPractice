@@ -6,5 +6,6 @@ public class App {
     System.out.println('Will be testing regex soon');
 
     private String REGEX_WHITELIST_1 = '\d';
+    private String TEST = '932a';
   }
 }
