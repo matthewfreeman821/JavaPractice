@@ -6,10 +6,11 @@ import com.sun.tools.javac.util.StringUtils;
 
 public class App {
   public static void main(String[] args) {
-    System.out.println('Will be testing regex soon');
+    System.out.println("Will be testing regex soon");
 
-    private String REGEX_WHITELIST_1 = '\d';
-    private String TEST = '932a';
+    private String REGEX_WHITELIST_1 = "\\d";
+    private String TEST = "932a";
+
   }
 
   private void regexValidation(String input, String regex) {
