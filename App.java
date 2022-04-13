@@ -11,6 +11,7 @@ public class App {
     private String REGEX_WHITELIST_1 = "\\d";
     private String TEST = "932a";
 
+    regexValidation(TEST, REGEX_WHITELIST_1);
   }
 
   private void regexValidation(String input, String regex) {
