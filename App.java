@@ -14,7 +14,7 @@ public class App {
     regexValidation(TEST, REGEX_WHITELIST_1);
   }
 
-  private void regexValidation(String input, String regex) {
+  private static void regexValidation(String input, String regex) {
     boolean isValid = StringUtils.isBlank(input) || !java.util.regex.Pattern.compile(regex).matcher(input).matches();
   }
 }
