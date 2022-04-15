@@ -8,8 +8,8 @@ public class App {
   public static void main(String[] args) {
     System.out.println("Will be testing regex soon");
 
-    private String REGEX_WHITELIST_1 = "\\d";
-    private String TEST = "932a";
+    final String REGEX_WHITELIST_1 = "\\d";
+    final String TEST = "932a";
 
     regexValidation(TEST, REGEX_WHITELIST_1);
   }
