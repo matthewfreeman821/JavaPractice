@@ -8,7 +8,7 @@ public class App {
   public static void main(String[] args) {
     System.out.println("Will be testing regex soon");
 
-    final String REGEX_WHITELIST_1 = "\\d";
+    final String REGEX_WHITELIST_1 = "^.*(\\r\\n|\\r|\\n).*$";
     final String TEST = "932a";
 
     System.out.println(StringUtiles.toString(regexValidation(TEST, REGEX_WHITELIST_1)));
