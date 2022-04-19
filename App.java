@@ -9,7 +9,7 @@ public class App {
     System.out.println("Will be testing regex soon");
 
     final String REGEX_WHITELIST_1 = "^.*(\\r\\n|\\r|\\n).*$";
-    final String TEST = "932a";
+    final String TEST = "93\r\n2a";
 
     System.out.println(StringUtiles.toString(regexValidation(TEST, REGEX_WHITELIST_1)));
   }
