@@ -10,10 +10,10 @@ public class App {
     final String REGEX_WHITELIST_1 = "^.*(\\r\\n|\\r|\\n).*$";
     final String TEST = "93\r\n2a";
 
-    regexValidation(TEST, REGEX_WHITELIST_1);
+    System.out.println("The value is " + regexValidation(TEST, REGEX_WHITELIST_1));
   }
 
-  private static void regexValidation(String input, String regex) {
-    boolean isValid = java.util.regex.Pattern.compile(regex).matcher(input).matches();
+  private static boolean regexValidation(String input, String regex) {
+    return java.util.regex.Pattern.compile(regex).matcher(input).matches();
   }
 }
