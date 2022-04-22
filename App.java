@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Pattern;
-
 public class App {
   public static void main(String[] args) {
     System.out.println("Will be testing regex soon");
