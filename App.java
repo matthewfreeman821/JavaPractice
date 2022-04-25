@@ -8,8 +8,8 @@ public class App {
     final String REGEX_1 = "^.*(\\r\\n|\\r|\\n).*$";
     final String REGEX_2 = "^\\d$";
     final String TEST = "93\r\n2a";
-    String[] stringsToTest;
-    String[] regexTests;
+    String[] stringsToTest = new ArrayList<String>();
+    String[] regexTests = new ArrayList<String>();
 
     System.out.println("The value is " + regexValidation(TEST, REGEX_WHITELIST_1));
   }
