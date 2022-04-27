@@ -9,8 +9,8 @@ public class App {
     final String REGEX_2 = "^\\d$";
     final String TEST = "93\r\n2a";
     String[] stringsToTest = new ArrayList<String>();
-    String[] regexTests = new ArrayList<String>();
-    regexTests.add(REGEX_1, REGEX_2);
+    ArrayList<String> regexTests = new ArrayList<String>();
+    regexTests.add(REGEX_1);
 
     System.out.println("The value is " + regexValidation(TEST, REGEX_WHITELIST_1));
   }
