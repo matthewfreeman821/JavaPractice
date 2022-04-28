@@ -11,6 +11,7 @@ public class App {
     String[] stringsToTest = new ArrayList<String>();
     ArrayList<String> regexTests = new ArrayList<String>();
     regexTests.add(REGEX_1);
+    regexTests.add(REGEX_2);
 
     System.out.println("The value is " + regexValidation(TEST, REGEX_WHITELIST_1));
   }
