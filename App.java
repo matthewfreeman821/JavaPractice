@@ -8,7 +8,7 @@ public class App {
     final String REGEX_1 = "^.*(\\r\\n|\\r|\\n).*$";
     final String REGEX_2 = "^\\d$";
     final String TEST = "93\r\n2a";
-    String[] stringsToTest = new ArrayList<String>();
+    ArrayList<String> stringsToTest = new ArrayList<String>();
     ArrayList<String> regexTests = new ArrayList<String>();
     regexTests.add(REGEX_1);
     regexTests.add(REGEX_2);
