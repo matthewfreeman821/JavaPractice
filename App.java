@@ -13,6 +13,8 @@ public class App {
     regexTests.add(REGEX_1);
     regexTests.add(REGEX_2);
 
+    stringsToTest.add(TEST);
+
     System.out.println("The value is " + regexValidation(TEST, REGEX_WHITELIST_1));
   }
 
