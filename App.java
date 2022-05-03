@@ -16,6 +16,7 @@ public class App {
     regexTests.add(REGEX_2);
 
     stringsToTest.add(TEST);
+    stringsToTest.add(TEST_2);
 
     System.out.println("The value is " + regexValidation(TEST, REGEX_WHITELIST_1));
   }
