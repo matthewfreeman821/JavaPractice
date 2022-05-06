@@ -19,7 +19,10 @@ public class App {
     stringsToTest.add(TEST_2);
     stringsToTest.add(TEST_3);
 
-    stringsToTest.forEach(string -> System.out.println(string));
+    stringsToTest.forEach(string -> {
+      regexTests.forEach(regex -> System.out.println(regex));
+      System.out.println(string);
+    });
 
     System.out.println("The value is " + regexValidation(TEST, REGEX_WHITELIST_1));
   }
