@@ -23,8 +23,6 @@ public class App {
       regexTests.forEach(regex -> System.out.println(regex));
       System.out.println(string);
     });
-
-    System.out.println("The value is " + regexValidation(TEST, REGEX_WHITELIST_1));
   }
 
   private static boolean regexValidation(String input, String regex) {
