@@ -20,7 +20,7 @@ public class App {
     stringsToTest.add(TEST_3);
 
     stringsToTest.forEach(string -> {
-      regexTests.forEach(regex -> System.out.println(regex));
+      regexTests.forEach(regex -> regexValidation(string, regex));
       System.out.println(string);
     });
   }
