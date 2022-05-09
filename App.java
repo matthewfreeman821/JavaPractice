@@ -20,8 +20,12 @@ public class App {
     stringsToTest.add(TEST_3);
 
     stringsToTest.forEach(string -> {
-      regexTests.forEach(regex -> regexValidation(string, regex));
-      System.out.println(string);
+      regexTests.forEach(regex -> {
+        if (regexValidation(string, regex)) {
+          System.out.println(string);
+        }
+        ;
+      });
     });
   }
 
