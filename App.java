@@ -17,10 +17,6 @@ public class App {
     stringsToTest.add(TEST_2);
     stringsToTest.add(TEST_3);
 
-    if (regexValidation(TEST_2, REGEX_2)) {
-      System.out.println("Success");
-    }
-
     stringsToTest.forEach(string -> {
       regexTests.forEach(regex -> {
         if (regexValidation(string, regex)) {
