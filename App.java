@@ -13,6 +13,7 @@ public class App {
     ArrayList<String> regexTests = new ArrayList<String>();
     regexTests.add(REGEX_1);
     regexTests.add(REGEX_2);
+    regexTests.add(REGEX_3);
 
     stringsToTest.add(TEST);
     stringsToTest.add(TEST_2);
