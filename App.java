@@ -9,6 +9,7 @@ public class App {
     final String TEST = "93\r\n2a";
     final String TEST_2 = "932";
     final String TEST_3 = "abcDEF";
+    final String TEST_4 = "@#$%^";
     ArrayList<String> stringsToTest = new ArrayList<String>();
     ArrayList<String> regexTests = new ArrayList<String>();
     regexTests.add(REGEX_1);
