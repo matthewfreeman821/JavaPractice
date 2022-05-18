@@ -21,6 +21,7 @@ public class App {
     stringsToTest.add(TEST);
     stringsToTest.add(TEST_2);
     stringsToTest.add(TEST_3);
+    stringsToTest.add(TEST_4);
 
     stringsToTest.forEach(string -> {
       regexTests.forEach(regex -> {
