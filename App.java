@@ -26,7 +26,7 @@ public class App {
     stringsToTest.forEach(string -> {
       regexTests.forEach(regex -> {
         if (regexValidation(string, regex)) {
-          System.out.println(string);
+          System.out.println(string + regex);
         }
         ;
       });
