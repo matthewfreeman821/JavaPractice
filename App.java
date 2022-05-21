@@ -28,6 +28,8 @@ public class App {
         if (regexValidation(string, regex)) {
           System.out.println(string + regex);
           System.out.println("True");
+        } else {
+          System.out.println("False");
         }
         ;
       });
