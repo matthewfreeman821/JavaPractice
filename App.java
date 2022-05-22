@@ -29,6 +29,7 @@ public class App {
           System.out.println(string + regex);
           System.out.println("True");
         } else {
+          System.out.println(string + regex);
           System.out.println("False");
         }
         ;
