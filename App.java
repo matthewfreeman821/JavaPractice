@@ -28,6 +28,7 @@ public class App {
         if (regexValidation(string, regex)) {
           System.out.println(string + regex);
           System.out.println("True");
+          // Develop to break out on this to avoid extra loops
         } else {
           System.out.println(string + regex);
           System.out.println("False");
