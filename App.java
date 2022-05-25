@@ -29,7 +29,6 @@ public class App {
           System.out.println(string + regex);
           System.out.println("True");
           return;
-          // Develop to break out on this to avoid extra loops
         } else {
           System.out.println(string + regex);
           System.out.println("False");
