@@ -24,7 +24,6 @@ public class App {
     stringsToTest.add(TEST_4);
 
     stringsToTest.forEach(string -> {
-      final Integer count = 0;
       regexTests.forEach(regex -> {
         if (regexValidation(string, regex)) {
           System.out.println(string + regex);
