@@ -23,6 +23,7 @@ public class App {
     stringsToTest.add(TEST_3);
     stringsToTest.add(TEST_4);
 
+    // Breakout to its own method later
     stringsToTest.forEach(string -> {
       regexTests.forEach(regex -> {
         if (regexValidation(string, regex)) {
