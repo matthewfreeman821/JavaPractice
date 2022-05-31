@@ -22,8 +22,13 @@ public class App {
     stringsToTest.add(TEST_2);
     stringsToTest.add(TEST_3);
     stringsToTest.add(TEST_4);
+  }
 
-    // Breakout to its own method later
+  private static boolean regexValidation(String input, String regex) {
+    return java.util.regex.Pattern.compile(regex).matcher(input).matches();
+  }
+
+  private static void regexPrint(String input, String regex) {
     stringsToTest.forEach(string -> {
       regexTests.forEach(regex -> {
         if (regexValidation(string, regex)) {
@@ -37,13 +42,5 @@ public class App {
         ;
       });
     });
-  }
-
-  private static boolean regexValidation(String input, String regex) {
-    return java.util.regex.Pattern.compile(regex).matcher(input).matches();
-  }
-
-  private static void regexPrint(String inout, String regex) {
-
   }
 }
