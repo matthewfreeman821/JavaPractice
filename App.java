@@ -28,7 +28,7 @@ public class App {
     return java.util.regex.Pattern.compile(regex).matcher(input).matches();
   }
 
-  private static void regexPrint(String input, String regex) {
+  private static void regexPrint(String[] input, String[] regex) {
     stringsToTest.forEach(string -> {
       regexTests.forEach(regex -> {
         if (regexValidation(string, regex)) {
