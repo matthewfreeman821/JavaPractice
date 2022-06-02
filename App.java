@@ -22,6 +22,8 @@ public class App {
     stringsToTest.add(TEST_2);
     stringsToTest.add(TEST_3);
     stringsToTest.add(TEST_4);
+
+    regexPrint(stringsToTest, regexTests);
   }
 
   private static boolean regexValidation(String input, String regex) {
