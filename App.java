@@ -7,7 +7,7 @@ public class App {
     final String REGEX_2 = "^[0-9]*$";
     final String REGEX_3 = "^[a-zA-Z]*$";
     final String REGEX_4 = "^[@#$%^]*$";
-    final String TEST = "93\r\n2a";
+    final String TEST_1 = "93\r\n2a";
     final String TEST_2 = "932";
     final String TEST_3 = "abcDEF";
     final String TEST_4 = "@#$%^";
