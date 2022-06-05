@@ -18,7 +18,7 @@ public class App {
     regexTests.add(REGEX_3);
     regexTests.add(REGEX_4);
 
-    stringsToTest.add(TEST);
+    stringsToTest.add(TEST_1);
     stringsToTest.add(TEST_2);
     stringsToTest.add(TEST_3);
     stringsToTest.add(TEST_4);
