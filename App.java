@@ -45,4 +45,8 @@ public class App {
       });
     });
   }
+
+  public enum Testing {
+
+  }
 }
