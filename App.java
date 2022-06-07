@@ -47,6 +47,6 @@ public class App {
   }
 
   public enum Testing {
-
+    TEST, FINAL, RUNNING
   }
 }
