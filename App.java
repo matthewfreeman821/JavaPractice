@@ -23,6 +23,8 @@ public class App {
     stringsToTest.add(TEST_3);
     stringsToTest.add(TEST_4);
 
+    System.out.println("Y".equalsIgnoreCase("y"));
+
     regexPrint(stringsToTest, regexTests);
   }
 
@@ -31,7 +33,7 @@ public class App {
   }
 
   private static void regexPrint(ArrayList<String> input, ArrayList<String> regex) {
-    stringsToTest.forEach(string -> {
+    input.forEach(string -> {
       regexTests.forEach(regex -> {
         if (regexValidation(string, regex)) {
           System.out.println(string + regex);
