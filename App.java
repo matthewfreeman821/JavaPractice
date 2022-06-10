@@ -34,7 +34,7 @@ public class App {
 
   private static void regexPrint(ArrayList<String> input, ArrayList<String> regex) {
     input.forEach(string -> {
-      regex.forEach(regex -> {
+      regex.forEach(regexToTest -> {
         if (regexValidation(string, regex)) {
           System.out.println(string + regex);
           System.out.println("True");
