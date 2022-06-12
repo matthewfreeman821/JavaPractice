@@ -23,8 +23,6 @@ public class App {
     stringsToTest.add(TEST_3);
     stringsToTest.add(TEST_4);
 
-    System.out.println("Y".equalsIgnoreCase("y"));
-
     regexPrint(stringsToTest, regexTests);
   }
 
