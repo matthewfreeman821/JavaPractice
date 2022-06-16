@@ -34,9 +34,9 @@ public class App {
     input.forEach(string -> {
       regex.forEach(regexToTest -> {
         if (regexValidation(string, regexToTest)) {
-          System.out.println(string + regex + "TRUE");
+          System.out.println(string + regex + " TRUE");
         } else {
-          System.out.println(string + regex + "FALSE");
+          System.out.println(string + regex + " FALSE");
         }
         ;
       });
