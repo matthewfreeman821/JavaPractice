@@ -24,6 +24,8 @@ public class App {
     stringsToTest.add(TEST_4);
 
     regexPrint(stringsToTest, regexTests);
+
+    // Use enum below
   }
 
   private static boolean regexValidation(String input, String regex) {
