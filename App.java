@@ -3,7 +3,6 @@ import java.util.List;
 
 public class App {
   public static void main(String[] args) {
-    // Who knows, does anyone actually look at this?
     final String REGEX_1 = "^.*(\\r\\n|\\r|\\n).*$";
     final String REGEX_2 = "^\\/d*$";
     final String REGEX_3 = "^[a-zA-Z]*$";
