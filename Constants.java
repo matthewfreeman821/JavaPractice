@@ -2,4 +2,5 @@
 public class Constants {
   public final String REGEX_1 = "^.*(\\r\\n|\\r|\\n).*$";
   public final String REGEX_2 = "^\\/d*$";
+  final String REGEX_3 = "^[a-zA-Z]*$";
 }
