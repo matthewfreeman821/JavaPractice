@@ -6,5 +6,5 @@ public class Constants {
   public final String REGEX_4 = "^[@#$%^]*$";
   public final String REGEX_5 = "^[0-9]*$";
 
-  final String TEST_1 = "93\r\n2a";
+  public final String TEST_1 = "93\r\n2a";
 }
