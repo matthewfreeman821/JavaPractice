@@ -4,7 +4,7 @@ import Constants.java;
 
 public class App {
   public static void main(String[] args) {
-    System.out.println(Constatns.REGEX_1);
+    System.out.println(Constants.REGEX_1);
     ArrayList<String> stringsToTest = new ArrayList<String>();
     ArrayList<String> regexTests = new ArrayList<String>();
     regexTests.add(REGEX_1);
