@@ -2,7 +2,7 @@
 public class Constants {
   public static final String REGEX_1 = "^.*(\\r\\n|\\r|\\n).*$";
   public static final String REGEX_2 = "^\\/d*$";
-  public final String REGEX_3 = "^[a-zA-Z]*$";
+  public static final String REGEX_3 = "^[a-zA-Z]*$";
   public final String REGEX_4 = "^[@#$%^]*$";
   public final String REGEX_5 = "^[0-9]*$";
 
