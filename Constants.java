@@ -7,7 +7,7 @@ public class Constants {
   public static final String REGEX_5 = "^[0-9]*$";
 
   public static final String TEST_1 = "93\r\n2a";
-  public final String TEST_2 = "932";
+  public static final String TEST_2 = "932";
   public final String TEST_3 = "abcDEF";
   public final String TEST_4 = "@#$%^";
 }
