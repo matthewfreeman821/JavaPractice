@@ -9,5 +9,5 @@ public class Constants {
   public static final String TEST_1 = "93\r\n2a";
   public static final String TEST_2 = "932";
   public static final String TEST_3 = "abcDEF";
-  public final String TEST_4 = "@#$%^";
+  public static final String TEST_4 = "@#$%^";
 }
