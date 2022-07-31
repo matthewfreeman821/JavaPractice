@@ -7,7 +7,7 @@ public class App {
     System.out.println(Constants.REGEX_1);
     ArrayList<String> stringsToTest = new ArrayList<String>();
     ArrayList<String> regexTests = new ArrayList<String>();
-    regexTests.add(REGEX_1);
+    regexTests.add(Constants.REGEX_1);
     regexTests.add(REGEX_2);
     regexTests.add(REGEX_3);
     regexTests.add(REGEX_4);
