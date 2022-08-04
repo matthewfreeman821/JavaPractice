@@ -11,7 +11,7 @@ public class App {
     regexTests.add(Constants.REGEX_2);
     regexTests.add(Constants.REGEX_3);
     regexTests.add(Constants.REGEX_4);
-    regexTests.add(REGEX_5);
+    regexTests.add(Constants.REGEX_5);
     stringsToTest.add(TEST_1);
     stringsToTest.add(TEST_2);
     stringsToTest.add(TEST_3);
