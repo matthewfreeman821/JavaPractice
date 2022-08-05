@@ -12,7 +12,7 @@ public class App {
     regexTests.add(Constants.REGEX_3);
     regexTests.add(Constants.REGEX_4);
     regexTests.add(Constants.REGEX_5);
-    stringsToTest.add(TEST_1);
+    stringsToTest.add(Constants.TEST_1);
     stringsToTest.add(TEST_2);
     stringsToTest.add(TEST_3);
     stringsToTest.add(TEST_4);
