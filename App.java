@@ -13,7 +13,7 @@ public class App {
     regexTests.add(Constants.REGEX_4);
     regexTests.add(Constants.REGEX_5);
     stringsToTest.add(Constants.TEST_1);
-    stringsToTest.add(TEST_2);
+    stringsToTest.add(Constants.TEST_2);
     stringsToTest.add(TEST_3);
     stringsToTest.add(TEST_4);
     regexPrint(stringsToTest, regexTests);
