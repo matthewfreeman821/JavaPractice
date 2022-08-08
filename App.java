@@ -15,7 +15,7 @@ public class App {
     stringsToTest.add(Constants.TEST_1);
     stringsToTest.add(Constants.TEST_2);
     stringsToTest.add(Constants.TEST_3);
-    stringsToTest.add(TEST_4);
+    stringsToTest.add(Constants.TEST_4);
     regexPrint(stringsToTest, regexTests);
   }
 
