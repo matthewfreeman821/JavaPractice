@@ -29,7 +29,7 @@ public class App {
     input.forEach(string -> {
       regex.forEach(regexToTest -> {
         if (regexValidation(string, regexToTest)) {
-          System.out.println(string + regex + " TRUE");
+          System.out.println(string + "Is TRUE FOR" + regex);
         } else {
           System.out.println(string + regex + " FALSE");
         }
