@@ -31,7 +31,7 @@ public class App {
         if (regexValidation(string, regexToTest)) {
           System.out.println(string + "Is TRUE FOR" + regex);
         } else {
-          System.out.println(string + regex + " FALSE");
+          System.out.println(string + "IS FALSE FOR" + regex);
         }
         ;
       });
