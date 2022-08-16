@@ -30,10 +30,7 @@ public class App {
       regex.forEach(regexToTest -> {
         if (regexValidation(string, regexToTest)) {
           System.out.println(string + " Is TRUE FOR " + regex);
-        } else {
-          System.out.println(string + " IS FALSE FOR " + regex);
         }
-        ;
       });
     });
   }
