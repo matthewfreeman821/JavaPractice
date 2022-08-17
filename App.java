@@ -29,7 +29,7 @@ public class App {
     input.forEach(string -> {
       regex.forEach(regexToTest -> {
         if (regexValidation(string, regexToTest)) {
-          System.out.println(string + " Is TRUE FOR " + regex);
+          System.out.println(string + " is inside " + regex);
         }
       });
     });
