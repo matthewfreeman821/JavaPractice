@@ -2,8 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 import Constants.java;
 
-// need better messaging to understand output
-
 public class App {
   public static void main(String[] args) {
     System.out.println(Constants.REGEX_1);
