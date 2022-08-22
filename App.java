@@ -6,6 +6,7 @@ public class App {
   public static void main(String[] args) {
     // Create array of strings to test against regex
     ArrayList<String> stringsToTest = new ArrayList<String>();
+    // Create array of regex to test strings with
     ArrayList<String> regexTests = new ArrayList<String>();
     regexTests.add(Constants.REGEX_1);
     regexTests.add(Constants.REGEX_2);
