@@ -8,6 +8,7 @@ public class App {
     ArrayList<String> stringsToTest = new ArrayList<String>();
     // Create array of regex to test strings with
     ArrayList<String> regexTests = new ArrayList<String>();
+    // Add regex from constants file to array
     regexTests.add(Constants.REGEX_1);
     regexTests.add(Constants.REGEX_2);
     regexTests.add(Constants.REGEX_3);
