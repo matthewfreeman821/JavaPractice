@@ -14,6 +14,7 @@ public class App {
     regexTests.add(Constants.REGEX_3);
     regexTests.add(Constants.REGEX_4);
     regexTests.add(Constants.REGEX_5);
+    // Add strings from constants file to array
     stringsToTest.add(Constants.TEST_1);
     stringsToTest.add(Constants.TEST_2);
     stringsToTest.add(Constants.TEST_3);
