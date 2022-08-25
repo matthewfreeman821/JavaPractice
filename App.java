@@ -19,6 +19,7 @@ public class App {
     stringsToTest.add(Constants.TEST_2);
     stringsToTest.add(Constants.TEST_3);
     stringsToTest.add(Constants.TEST_4);
+    // Call method with built arrays
     regexPrint(stringsToTest, regexTests);
   }
 
