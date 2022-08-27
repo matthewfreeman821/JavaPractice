@@ -20,7 +20,7 @@ public class App {
     stringsToTest.add(Constants.TEST_3);
     stringsToTest.add(Constants.TEST_4);
     // Call method with built arrays
-    regexPrint(stringsToTest, regexTests);
+    printResults(stringsToTest, regexTests);
   }
 
   private static boolean regexValidation(String input, String regex) {
