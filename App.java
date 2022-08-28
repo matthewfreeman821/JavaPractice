@@ -24,6 +24,7 @@ public class App {
   }
 
   private static boolean regexValidation(String input, String regex) {
+    // Checks if the input is inside the regex
     return java.util.regex.Pattern.compile(regex).matcher(input).matches();
   }
 
