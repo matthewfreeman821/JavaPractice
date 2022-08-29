@@ -31,6 +31,7 @@ public class App {
   private static void printResults(ArrayList<String> input, ArrayList<String> regex) {
     input.forEach(string -> {
       regex.forEach(regexToTest -> {
+        // Check if string is in regex
         if (regexValidation(string, regexToTest)) {
           System.out.println(string + " is inside the regex: " + regex);
         }
