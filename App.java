@@ -33,7 +33,7 @@ public class App {
       regex.forEach(regexToTest -> {
         // Check if string is in regex
         if (regexValidation(string, regexToTest)) {
-          // if the method returns true, print the below statement
+          // print the below statement
           System.out.println(string + " is inside the regex: " + regex);
         }
       });
