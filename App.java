@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 import Constants.java;
 
+//Application for comparing regex and strings
+
 public class App {
   public static void main(String[] args) {
     // Create array of strings to test against regex
