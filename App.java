@@ -11,6 +11,7 @@ public class App {
     // Create array of regex to test strings with
     ArrayList<String> regexTests = new ArrayList<String>();
     // Add regex from constants file to array
+    // Create method to dynamically add constants
     regexTests.add(Constants.REGEX_1);
     regexTests.add(Constants.REGEX_2);
     regexTests.add(Constants.REGEX_3);
