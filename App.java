@@ -42,4 +42,8 @@ public class App {
       });
     });
   }
+
+  private static void addToList(String word) {
+    System.out.println(word);
+  }
 }
