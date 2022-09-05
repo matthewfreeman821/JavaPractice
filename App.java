@@ -44,6 +44,7 @@ public class App {
   }
 
   private static void addToList(String word) {
+    ArrayList words = new ArrayList<>();
     System.out.println(word);
   }
 }
