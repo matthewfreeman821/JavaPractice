@@ -45,6 +45,6 @@ public class App {
 
   private static void addToList(String word) {
     ArrayList words = new ArrayList<>();
-
+    words.add(word);
   }
 }
