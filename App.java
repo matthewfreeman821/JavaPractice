@@ -46,5 +46,7 @@ public class App {
   private static ArrayList addToList(String word) {
     ArrayList words = new ArrayList<>();
     words.add(word);
+
+    return words;
   }
 }
