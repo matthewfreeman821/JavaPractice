@@ -12,6 +12,7 @@ public class App {
     ArrayList<String> regexTests = new ArrayList<String>();
     // Use new method
     addToList(Constants.REGEX_1);
+    System.out.println(regexTests);
     printResults(stringsToTest, regexTests);
   }
 
