@@ -33,6 +33,8 @@ public class App {
   }
 
   private static ArrayList addToList(String word) {
+    // Flesh out to handle more than word, or perhaps from a file
+
     ArrayList words = new ArrayList<>();
     words.add(word);
 
