@@ -10,7 +10,7 @@ public class App {
     ArrayList<String> stringsToTest = new ArrayList<String>();
     // Create array of regex to test strings with
     ArrayList<String> regexTests = new ArrayList<String>();
-    // Use new method
+    // Test new method
     addToList(Constants.REGEX_1);
     printResults(stringsToTest, regexTests);
   }
@@ -33,7 +33,7 @@ public class App {
   }
 
   private static ArrayList addToList(String word) {
-    // Flesh out to handle more than word, or perhaps from a file
+    // Flesh out to handle more than word, or perhaps from a file?
 
     ArrayList words = new ArrayList<>();
     words.add(word);
