@@ -10,8 +10,7 @@ public class App {
     ArrayList<String> stringsToTest = new ArrayList<String>();
     // Create array of regex to test strings with
     ArrayList<String> regexTests = new ArrayList<String>();
-    // Test new method
-    addToList(Constants.REGEX_1);
+
     printResults(stringsToTest, regexTests);
   }
 
