@@ -31,7 +31,7 @@ public class App {
     });
   }
 
-  private static ArrayList addToList(String word) {
+  private static ArrayList addToList(String[] words) {
     // Create a foreach loop?
     ArrayList words = new ArrayList<>();
     words.add(word);
