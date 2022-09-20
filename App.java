@@ -32,10 +32,8 @@ public class App {
   }
 
   private static ArrayList addToList(String[] words) {
-    // Create a foreach loop?
-    ArrayList words = new ArrayList<>();
-    words.add(word);
+    // Create a foreach loop
 
-    return words;
+    return null;
   }
 }
