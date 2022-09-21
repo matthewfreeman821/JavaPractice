@@ -31,9 +31,4 @@ public class App {
     });
   }
 
-  private static ArrayList addToList(String[] words) {
-    // Create a foreach loop
-
-    return null;
-  }
 }
